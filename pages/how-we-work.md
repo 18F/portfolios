@@ -7,12 +7,25 @@ banner_cta: true
 content_focus: false
 ---
 
-<div class="hww-intro" markdown="1">
-### 18F partners with civilian and military federal agencies to help you build or buy exceptional digital services.
 
-18F helps agencies define a strategy and work towards a solution through our Path Analysis and Experiment and Iterate services. We also offer procurement services, including to state and local governments with access to federal funds.
+<div class="usa-grid-full usa-section hww-item" id="path-analysis">
+  <div class="usa-width-two-thirds hww-intro">
+    <h3>18F partners with civilian and military federal agencies to help you build or buy exceptional digital services.</h3>
 
-18F works with partners that have federal funding, and, as a cost recoverable office, we’re required to charge for our work. 
+    <p>18F helps agencies define a strategy and work towards a solution through our Path Analysis and Experiment and Iterate services. We also offer procurement services, including to state and local governments with access to federal funds.</p>
+
+    <p>18F works with partners that have federal funding, and, as a cost recoverable office, we’re required to charge for our work.</p>
+  </div>
+  <div class="usa-width-one-third">
+    <ul class="hww-portfolio-list">
+      <li><h3>Our portfolios of work</h3></li>
+      <li>Environmental & Natural Resources</li>
+      <li>Human Services</li>
+      <li>Justice</li>
+      <li>National Security and Intelligence</li>
+      <li>State & Local</li>
+    </ul>
+  </div>
 </div>
 
 ---
