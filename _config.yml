@@ -62,6 +62,9 @@ collections:
   styleguide:
     output: true
     permalink: /styleguide/:path/
+  portfolios:
+    output: true
+    permalink: /portfolios/:path/
 
 defaults:
  -
@@ -133,6 +136,11 @@ defaults:
   values:
     layout: styleguide
     include_subnav: true
+ -
+   scope:
+     path: "_portfolios"
+   values:
+     layout: portfolio
 
 frontmatter_tests:
   path: "tests/schema"
