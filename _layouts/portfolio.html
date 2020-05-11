@@ -1,0 +1,164 @@
+---
+layout: default
+header_border: true
+---
+
+{% assign matching_posts = page | match_posts | sort:'date' | reverse %}
+
+
+{% include breadcrumb.html
+  parent_permalink='/how-we-work/'
+  parent_title='How we work'
+%}
+
+<section class="page-tag-results">
+
+  <section class="background-dark">
+    <div class="usa-grid-full usa-flex">
+      <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
+        {% if page.name %}
+          <h1 class="h3">
+          <span class="hero-callout-alt_color">{{ page.name }}</span>
+          </h1>
+        {% endif %}
+        <h1 class="hero-callout-title-secondary">
+          {{ page.heading }}
+        </h1>
+        <h2 class="h3">
+          {{ page.subheading }}
+        </h2>
+        <a class="usa-button usa-button-secondary" href="https://18f.gsa.gov/contact/">Work with us</a>
+      </div>
+      <!-- {% if page.image %}
+        <div class="usa-width-one-half hero"
+          style="background-image: url({{ site.baseurl }}{{ page.image }});"
+          role="img"
+          title="{{ page.image_accessibility }}">
+        </div>
+      {% else %}
+        <div class="hero hero-img-collapsed" style="background-image: none">
+        </div>
+      {% endif %} -->
+    </div>
+  </section>
+
+  <div class="usa-grid-full usa-grid-reversed">
+    {% if page.agency or
+          page.project_url or
+          page.github_repo or
+          page.portfolio_partners.size > 0 or
+          page.start_date or
+          page.expiration_date or
+          page.resources
+    %}
+    <aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
+      <ul>
+        {% if page.quote %}
+          <blockquote>
+            <p>&ldquo;{{ page.quote }}&rdquo;</p>
+            {% if page.quote_source %}
+              <cite>{{ page.quote_source | prepend: '– ' | markdownify }}</cite>
+            {% endif %}
+          </blockquote>
+        {% endif %}
+
+        {% if page.agency %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">Agency partner</div>
+          <div>{{ page.agency }}</div>
+        </li>
+        {% endif %}
+
+        {% if page.project_url %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">See our work</div>
+          <div>{{ page.project_url | markdownify }}</div>
+        </li>
+        {% endif %}
+
+        {% if page.resources.size > 0 %}
+        <li class="section-info-list-item">
+          <div class="section-info-header">More resources</div>
+          <ul class="{% unless page.resources.size > 1 %}usa-unstyled-list{% endunless %}">
+            {% for resource in page.resources %}
+              <li>{{ resource | markdownify }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if page.learn_more %}
+          <li class="section-info-list-item">
+            <a class="usa-button" href="{{ page.learn_more }}">Learn more</a>
+          </li>
+        {% endif %}
+      </ul>
+      <div>{% include side-cta.html %}</div>
+    </aside>
+    {% endif %}
+
+    <div class="usa-grid usa-width-two-thirds">
+      <section class="usa-section page-tag-results-content">
+        {{ content }}
+      </section>
+    </div>
+  </div>
+
+  {% if page.portfolio_partners.size > 0 %}
+  <div class="usa-section background-gray">
+    <section class="usa-grid">
+      {% assign portfolio_partners = page.portfolio_partners %}
+      {% assign agency_partners = site.data.agencies %}
+      {% assign partner_groups = agency_partners | in_groups: 3 %}
+
+      <h2 id="some-agencies-weve-worked-with">Some agencies we’ve worked with</h2>
+      <div class="usa-grid-full">
+        <ul class="list-columns">
+        {% for group in partner_groups %}
+          <li class="usa-width-one-third">
+            <ul class="list-columns list-images">
+            {% for partner in group %}
+            {% if portfolio_partners contains partner.name %}
+              <li class="list-images-item">
+                <img class="list-images-image" src="{{ partner.logo | prepend: site.baseurl }}" alt="{{ partner.logo }} logo" />
+                {% if partner.agency_url %}
+                  <a class="list-images-text" href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
+                {% else %}
+                  <span class="list-images-text">{{ partner.name }}</span>
+                {% endif %}
+              </li>
+              {% endif %}
+            {% endfor %}
+            </ul>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </section>
+  </div>
+  {% endif %}
+
+  {% if matching_posts.size > 0 %}
+  <div class="background-gray">
+    <div class="usa-section post-border">
+      <section class="usa-grid posts_feature">
+        <div class="{% if matching_posts.size > 3 %}usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer{% endif %}">
+          <h2>Related blog posts</h2>
+          {% if matching_posts.size > 3 %}
+            <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts related to this portfolio{% include svg/icons/arrow-right.svg %}</a>
+          {% endif %}
+        </div>
+        <ul>
+        {% for post in matching_posts limit:3 %}
+          {% include post.html
+             post_date=post.date
+             post_title=post.title
+             post_excerpt=post.excerpt
+             post_url=post.url
+          %}
+        {% endfor %}
+      </ul>
+      </section>
+    </div>
+  </div>
+  {% endif %}
+</section>

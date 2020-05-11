@@ -20,7 +20,7 @@ content_focus: false
     <ul class="hww-portfolio-list">
       <li><h3>Our portfolios of work</h3></li>
       <li>Environmental & Natural Resources</li>
-      <li>Human Services</li>
+      <li><a href="{{ site.baseurl }}/portfolios/human-services/">Human Services</a></li>
       <li>Justice</li>
       <li>National Security and Intelligence</li>
       <li>State & Local</li>
