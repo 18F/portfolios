@@ -52,4 +52,4 @@ Our team of designers, developers, and acquisition specialists are government em
 
 {% include contact-button.html extra_class='full-width-inside-grid' message='Can we help your program? Let\'s talk.' button_text='Contact us' %}
 
-{% include quote.html extra_class="wider-than-two-thirds" text="We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the electronic Advanced Planning Document (eAPD) to <b>meet user needs and deliver value early and often.</b>" person="Jerome Lee, Centers for Medicare and Medicaid Services" logo="Center for Medicaid and Medicare Services" %}
+{% include quote.html extra_class="wider-than-two-thirds" text='We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the electronic Advanced Planning Document (eAPD) to meet user needs and deliver value early and often.' person='Jerome Lee, Centers for Medicare and Medicaid Services' logo="Center for Medicaid and Medicare Services" %}
