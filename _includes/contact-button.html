@@ -1,11 +1,8 @@
-
-
-
-<section class="blog-footer usa-section background-dark">
+<section class="blog-footer usa-section background-dark {{ include.extra_class }}">
   <div class="usa-grid">
-    <h2 class="usa-width-three-fourths">Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways.</h2>
+    <h2 class="usa-width-three-fourths">{{ include.message | default: "Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways."}}</h2>
     <div class="usa-width-one-fourth">
-      <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}/contact/">Get in touch</a>
+      <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}/contact/">{{ include.button_text | default: "Get in touch" }}</a>
     </div>
   </div>
 </section>

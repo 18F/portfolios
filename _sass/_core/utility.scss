@@ -10,6 +10,12 @@
   }
 }
 
+.full-width-inside-grid {
+  width: 100vw;
+  left: calc(-36vw + 51%);
+  position: relative;
+}
+
 .image-center {
   clear: both;
 }
@@ -62,4 +68,8 @@ svg {
   padding-top: 2.3rem;
   margin-top: 4.5rem;
   border-top: 10px solid $color-medium;
+}
+
+.wider-than-two-thirds {
+  width: 75vw;
 }

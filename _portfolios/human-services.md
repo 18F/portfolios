@@ -1,15 +1,18 @@
 ---
 name: Human Services Portfolio
-heading: 18F partners with federal, state, and local agencies to ensure people receive the public benefits they need.
-subheading: Navigating the benefits system can be complicated, time-consuming, and confusing. <br><strong>We’re here to help.</strong>
+heading: We partner with federal, state, and local agencies to ensure people receive the public benefits they need.
+subheading:
 permalink: /portfolios/human-services/
 tag: 'health and human services'
 
 # NOTE: if adding a new partner, make sure that they exist in _data/agencies.yml
-portfolio_partners:
+partners:
+- Administration for Children and Families
 - Alaska Department of Health and Human Services
+- California Child Welfare Digital Services
 - Center for Medicaid and Medicare Services
-- Department of Health and Human Services
+- Food and Nutrition Service, Department of Agriculture
+- Department of Labor
 - State of Vermont Agency of Human Services
 resources:
 - "[https://github.com/18F/human-services](https://github.com/18F/human-services)"
@@ -25,29 +28,28 @@ image_icon:
 project_weight: 2
 project_url:
 ---
-## We’re a team of designers, developers, and acquisition specialists improving public benefits programs.
+## We believe public benefits programs can be reliable, accessible, and delivered in human-centered ways.
 
-We are government employees working on programs such as:
+Our team of designers, developers, and acquisition specialists are government employees working with federal, state, and local agencies including:
 
-- Medicaid and Medicare
-- Children's Health Insurance Program (CHIP)
-- Temporary Assistance for Needy Families (TANF)
-- Women Infants and Children (WIC)
-- Head Start
-- Supplemental Nutrition Assistance Program (SNAP)
-- Disaster response
-- Housing assistance
-- Unemployment insurance
-- Long-term care
+{% include agency_subset.html extra_class='wider-than-two-thirds' %}
 
-## We help our government partners deliver better digital services through:
+{% include contact-button.html extra_class='full-width-inside-grid' message='Navigating the benefits system can be complicated, time-consuming, and confusing. <b>We\'re here to help.</b>' button_text='Contact us' %}
 
+## We partner with government agencies to deliver better digital services through:
+
+### Improved customer experiences
 - Accessible, multi-channel eligibility applications
-- Effective case management processes and systems
+- Secure identity management and document submission
 - Comprehensive treatment and service locators
-- Data quality and data management processes
-- Rapid & accurate implementation of policy as code
-- Secure verification systems like identity management and document submission
+- Simplified case management processes
+
+### Effective agency services
 - Simplified funding and oversight processes
+- Rapid & accurate implementation of policy as code
 - Streamlined grant and vendor management and reporting processes
-- Coaching and trainings for agency staff to work in more iterative ways
+- Coaching and trainings for agency staff
+
+{% include contact-button.html extra_class='full-width-inside-grid' message='Can we help your program? Let\'s talk' button_text='Contact us' %}
+
+{% include quote.html extra_class="wider-than-two-thirds" text="We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the electronic Advanced Planning Document (eAPD) to <b>meet user needs and deliver value early and often.</b>" person="Jerome Lee, Centers for Medicare and Medicaid Services" logo="Center for Medicaid and Medicare Services" %}
