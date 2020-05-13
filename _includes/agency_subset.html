@@ -1,5 +1,5 @@
-<div class="usa-section {{ include.extra_class }}">
-  <section class="usa-grid">
+<section class="usa-section usa-grid {{ include.extra_class }}">
+  <!-- <section class="usa-grid"> -->
     {% assign subset_partners = page.partners %}
     {% assign agency_partners = site.data.agencies | where_exp:"agency","subset_partners contains agency.name" %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
@@ -23,5 +23,5 @@
       {% endfor %}
       </ul>
     </div>
-  </section>
-</div>
+  <!-- </section> -->
+</section>

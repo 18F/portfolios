@@ -12,8 +12,12 @@
 
 .full-width-inside-grid {
   width: 100vw;
-  left: calc(-36vw + 51%);
+  left: calc(-50vw + 50%);
   position: relative;
+
+  @include media($medium-screen) {
+    left: calc(-50vw + 75%);
+  }
 }
 
 .image-center {
