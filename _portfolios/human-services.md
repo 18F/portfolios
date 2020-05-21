@@ -17,6 +17,7 @@ partners:
 resources:
 - "[https://github.com/18F/human-services](https://github.com/18F/human-services)"
 learn_more:
+show_blog_posts: false
 
 published: true
 listed: true
@@ -38,18 +39,34 @@ Our team of designers, developers, and acquisition specialists are government em
 
 ## We partner with government agencies to deliver better digital services through:
 
+<div class="usa-grid">
+<div class="usa-width-one-sixth" markdown="1">
+![tablet]({{ site.baseurl }}/assets/img/tablet-hand.svg)
+</div>
+<div class="usa-width-five-sixths" markdown="1">
 ### Improved customer experiences
-![18f logo]({{ site.baseurl }}/assets/img/logos/18F-Logo-S.png)
 - Accessible, multi-channel eligibility applications
 - Secure identity management and document submission
 - Comprehensive treatment and service locators
 - Simplified case management processes
+</div>
+</div>
+{: style="padding-bottom: 4rem;"}
 
+
+<div class="usa-grid">
+<div class="usa-width-one-sixth" markdown="1">
+![tablet]({{ site.baseurl }}/assets/img/user-network.svg)
+</div>
+<div class="usa-width-five-sixths" markdown="1">
 ### Effective agency services
 - Simplified funding and oversight processes
 - Rapid & accurate implementation of policy as code
 - Streamlined grant and vendor management and reporting processes
 - Coaching and trainings for agency staff
+</div>
+</div>
+{: style="padding-bottom: 4rem;"}
 
 {% include contact-button.html extra_class='full-width-inside-grid' message='Can we help your program? Let\'s talk.' button_text='Contact us' %}
 
