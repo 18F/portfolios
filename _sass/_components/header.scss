@@ -80,9 +80,21 @@ header[role=banner] {
 
 .site-logo-text {
   color: #000000;
+  font-size: 2rem;
   float: right;
   padding-left: 2rem;
-  padding-top: 1rem;
+  padding-top: 0.4rem;
+  visibility: hidden;
+  width: 0;
+
+  @include media(776px) {
+    visibility: visible;
+    width: auto;
+  }
+
+  @include media($nav-width) {
+    padding-top: 1rem;
+  }
 }
 
 // scss-lint:disable PropertyCount
