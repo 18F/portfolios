@@ -1,6 +1,6 @@
 ---
 name: Human Services Portfolio
-heading: We partner with federal, state, and local agencies to ensure people receive the public benefits they need.
+heading: We partner with agencies to enable human-centered, digitally-assisted public benefits programs.
 subheading:
 #permalink: /portfolios/human-services/
 permalink: /human-services/
@@ -30,26 +30,38 @@ image_icon:
 project_weight: 2
 project_url:
 ---
-## We believe public benefits programs can be reliable, accessible, and delivered in human-centered ways.
+## We believe public w programs can be reliable, accessible, integrated, and effective.
 
-Our team of designers, developers, and acquisition specialists are government employees working with federal, state, and local agencies including:
+Our team of designers, developers, and acquisition specialists are federal employees working with federal, state, and local agencies including:
 
 {% include agency_subset.html extra_class='wider-than-two-thirds' %}
 
-{% include contact-button.html extra_class='full-width-inside-grid' message='Navigating the benefits system can be complicated, time-consuming, and confusing. <b>We\'re here to help.</b>' button_text='Contact us' %}
+{% include contact-button.html extra_class='full-width-inside-grid' message='Too often, technology gets in the way of delivering help to the public in times of need. <b>We anchor projects to outcomes to ensure technology works for the people who need it.</b>' button_text='Contact us' %}
 
-## We partner with government agencies to deliver better digital services through:
+## As federal employees, we partner with agencies to deliver better services through:
+
+<div class="usa-grid">
+<div class="usa-width-one-sixth" markdown="1">
+![tablet]({{ site.baseurl }}/assets/img/trending-up.svg)
+</div>
+<div class="usa-width-five-sixths" markdown="1">
+### Outcomes-driven oversight processes
+- Reduced reporting and approval burden
+- Practical procurement and vendor management
+- Coaching and training to build, buy, and manage technology
+</div>
+</div>
+{: style="padding-bottom: 4rem;"}
 
 <div class="usa-grid">
 <div class="usa-width-one-sixth" markdown="1">
 ![tablet]({{ site.baseurl }}/assets/img/tablet-hand.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
-### Improved customer experiences
+### Human-centered experiences for all people
 - Accessible, multi-channel eligibility applications
 - Secure identity management and document submission
 - Comprehensive treatment and service locators
-- Simplified case management processes
 </div>
 </div>
 {: style="padding-bottom: 4rem;"}
@@ -60,11 +72,10 @@ Our team of designers, developers, and acquisition specialists are government em
 ![tablet]({{ site.baseurl }}/assets/img/user-network.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
-### Effective agency services
-- Simplified funding and oversight processes
+### Streamlined agency services
+- Simplified case management processes
 - Rapid & accurate implementation of policy as code
-- Streamlined grant and vendor management and reporting processes
-- Coaching and trainings for agency staff
+- Sustainable transition from legacy systems
 </div>
 </div>
 {: style="padding-bottom: 4rem;"}
