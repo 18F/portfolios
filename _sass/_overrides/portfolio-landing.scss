@@ -15,6 +15,17 @@
   .usa-grid {
     padding: 0 1rem;
   }
+
+.flex-landing-button {
+    display: flex;
+    align-items: center;
+}
+  .flex-two-thirds {
+    width: 66%;  
+  }
+  .flex-one-third {
+    width: 32%;  
+  }
   
   @media (max-width: 768px) {
     .flex-landing-portfolios {
