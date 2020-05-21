@@ -48,6 +48,7 @@ header_border: true
   </div>
 </section>
 
+{% if page.show_blog_posts %}
 <section class="page-tag-results">
   {% if matching_posts.size > 0 %}
   <div class="background-gray">
@@ -74,3 +75,4 @@ header_border: true
   </div>
   {% endif %}
 </section>
+{% endif %}
