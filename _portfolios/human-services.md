@@ -36,7 +36,7 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 
 {% include agency_subset.html extra_class='wider-than-two-thirds' %}
 
-{% include contact-button.html extra_class='full-width-inside-grid' message='Too often, technology gets in the way of delivering help to the public in times of need. <b>We anchor projects to outcomes to ensure technology works for the people who need it.</b>' button_text='Contact us' %}
+{% include contact-button.html extra_class='full-width-inside-grid' message='<span class="normal-text">Too often, technology gets in the way of delivering help to the public in times of need. <b>We anchor projects to outcomes to ensure technology works for the people who need it.</b></span>' button_text='Contact us' %}
 
 ## As federal employees, we partner with agencies to deliver better services through:
 
@@ -80,6 +80,6 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 </div>
 {: style="padding-bottom: 4rem;"}
 
-{% include contact-button.html extra_class='full-width-inside-grid' message='Can we help your program? Let\'s talk.' button_text='Contact us' %}
+{% include contact-button.html extra_class='full-width-inside-grid' message='<span class="normal-text">Can we help your program? Let\'s talk.</span>' button_text='Contact us' %}
 
 {% include quote.html extra_class="wider-than-two-thirds" text='We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the electronic Advanced Planning Document (eAPD) to meet user needs and deliver value early and often.' person='Jerome Lee, Centers for Medicare and Medicaid Services' logo="Center for Medicaid and Medicare Services" %}
