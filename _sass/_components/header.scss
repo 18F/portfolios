@@ -71,10 +71,18 @@ header[role=banner] {
   @include margin(1rem null);
   display: block;
   float: left;
+  text-decoration: none;
 
   img {
     width: 4.4rem;
   }
+}
+
+.site-logo-text {
+  color: #000000;
+  float: right;
+  padding-left: 2rem;
+  padding-top: 1rem;
 }
 
 // scss-lint:disable PropertyCount
