@@ -1,55 +1,17 @@
 navbar:
-- text: What we deliver
-  permalink: /what-we-deliver/
-  multiple_permalinks:
-    - /what-we-deliver/:path/
-- text: How we work
-  permalink: /how-we-work/
-- text: About
-  permalink: /about/
-- text: Blog
-  permalink: /blog/
-  multiple_permalinks:
-    - /blog/:path/
-    - /tags/:path/
-    - /author/:path/
-- text: Contact
-  permalink: /contact/
+- text: Human Services
+  permalink: /human-services/
+- text: National Security & Intelligence
+  permalink: /national-security-intelligence/
 
 drawer:
-  - text: What we deliver
-    permalink: /what-we-deliver/
-    multiple_permalinks:
-    - /what-we-deliver/:path/
-  - text: How we work
-    permalink: /how-we-work/
-  - text: About
-    permalink: /about/
-  - text: Blog
-    permalink: /blog/
-    multiple_permalinks:
-      - /blog/:path/
-      - /tags/:path/
-      - /author/:path/
-  - text: Contact
-    permalink: /contact/
+  - text: Human Services
+    permalink: /human-services/
+  - text: National Security & Intelligence
+    permalink: /national-security-intelligence/
 
 footer:
-  - text: What we deliver
-    permalink: /what-we-deliver/
-    multiple_permalinks:
-    - /what-we-deliver/:path/
-  - text: About
-    permalink: /about/
-  - text: Partnership Principles
-    permalink: /partnership-principles/
-  - text: Join 18F
-    permalink: /join/
-  - text: Blog
-    permalink: /blog/
-    multiple_permalinks:
-      - /blog/:path/
-      - /tags/:path/
-      - /author/:path/
-  - text: Contact
-    permalink: /contact/
+  - text: Human Services
+    permalink: /human-services/
+  - text: National Security & Intelligence
+    permalink: /national-security-intelligence/

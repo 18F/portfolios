@@ -1,0 +1,41 @@
+.usa-button-fancy {
+  background-color: $color-white;
+  box-shadow: $button-stroke $color-primary;
+  color: $color-primary;
+  padding: 3rem;
+  margin-top: 4rem !important;
+  margin-bottom: 4rem !important;
+  text-align: left;
+  font-size: 3rem;
+  font-weight: normal;
+  width: -webkit-fill-available;
+
+  &:hover,
+  &.usa-button-hover {
+    box-shadow: $button-stroke $color-primary-darker;
+    color: $color-primary-darker;
+  }
+
+  &:active,
+  &.usa-button-active {
+    box-shadow: $button-stroke $color-primary-darkest;
+    color: $color-primary-darkest;
+  }
+
+  &:visited,
+  &.usa-button-visited {
+    background-color: $color-white;
+    box-shadow: $button-stroke $color-primary;
+    color: $color-primary;
+  }
+}
+
+
+
+.fancy-button-icon {
+  text-align: right;
+
+  img {
+    width: 5rem !important;
+  }
+}

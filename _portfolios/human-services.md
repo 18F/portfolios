@@ -2,7 +2,8 @@
 name: Human Services Portfolio
 heading: We partner with federal, state, and local agencies to ensure people receive the public benefits they need.
 subheading:
-permalink: /portfolios/human-services/
+#permalink: /portfolios/human-services/
+permalink: /human-services/
 tag: 'health and human services'
 
 # NOTE: if adding a new partner, make sure that they exist in _data/agencies.yml
