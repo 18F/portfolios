@@ -92,3 +92,9 @@
 - name: U.S. Postal Service
   acronym: USPS
   logo: /assets/img/logos/agencies/USPS.svg
+- name: Administration for Children and Families
+  acronym: ACF
+  logo: /assets/img/logos/agencies/ACF.png
+- name: Food and Nutrition Service
+  acronym: FNS
+  logo: /assets/img/logos/agencies/USDA.svg

@@ -11,7 +11,7 @@ partners:
 - Alaska Department of Health and Human Services
 - California Child Welfare Digital Services
 - Center for Medicaid and Medicare Services
-- Food and Nutrition Service, Department of Agriculture
+- Food and Nutrition Service
 - Department of Labor
 - State of Vermont Agency of Human Services
 resources:
@@ -39,6 +39,7 @@ Our team of designers, developers, and acquisition specialists are government em
 ## We partner with government agencies to deliver better digital services through:
 
 ### Improved customer experiences
+![18f logo]({{ site.baseurl }}/assets/img/logos/18F-Logo-S.png)
 - Accessible, multi-channel eligibility applications
 - Secure identity management and document submission
 - Comprehensive treatment and service locators
