@@ -9,7 +9,7 @@
 {% endif %}
 
 <article class="card {{ wds_grid_class }} usa-width-tablet">
-  <div class="card-link" data-href="{{ card_link }}" tabindex="-1">
+  <div {% comment %}class="card-link" data-href="{{ card_link }}" tabindex="-1"{% endcomment %}>
     <div role="img"
          title="{{ include.image_alt }}"
          class="card-image-bg {% unless include.image_src %} card-image-svg {% endunless %}"
@@ -28,7 +28,9 @@
         <p class="card-tag">{{ include.agency }}</p>
       {% endif %}
       {% if card_link and include.tagline %}
-        <a href="{{ card_link }}" tabindex="-1" class="card-link-tagline"><h3 class="h4">{{ include.tagline }}</h3></a>
+        {% comment %}<a href="{{ card_link }}" tabindex="-1" class="card-link-tagline">{% endcomment %}
+          <h3 class="h4">{{ include.tagline }}</h3>
+        {% comment %}</a>{% endcomment %}
       {% endif %}
       <p class="card-description">{{ include.description }}</p>
     </div>
