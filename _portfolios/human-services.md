@@ -12,7 +12,7 @@ partners:
 - Alaska Department of Health and Human Services
 - California Child Welfare Digital Services
 - Center for Medicaid and Medicare Services
-- Food and Nutrition Service
+- USDA Food and Nutrition Service
 - Department of Labor
 - State of Vermont Agency of Human Services
 resources:
@@ -79,6 +79,22 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 </div>
 </div>
 {: style="padding-bottom: 4rem;"}
+
+<section class="usa-section full-width-inside-grid background-gray">
+  <section class="usa-grid">
+    <h2>Our projects</h2>
+    {% include card-portfolio-project.html
+       project='cms-eapd'
+    %}
+    {% include card-portfolio-project.html
+       project='usda-fns'
+    %}
+
+    {% include card-portfolio-project.html
+       project='vermont-iee'
+    %}
+  </section>
+</section>
 
 {% include contact-button.html extra_class='full-width-inside-grid' message='<span class="normal-text">Can we help your program? Let\'s talk.</span>' button_text='Contact us' %}
 

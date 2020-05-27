@@ -32,11 +32,13 @@
       {% endif %}
       <p class="card-description">{{ include.description }}</p>
     </div>
+    {% comment %}
     <a href="{{ card_link }}" class="card-cta link-arrow-right" tabindex="0">
       Read more
       <span class="usa-sr-only">about {{ include.tagline }}</span>
       {% include svg/icons/arrow-right.svg %}
     </a>
+    {% endcomment %}
   </div>
 </article>
 

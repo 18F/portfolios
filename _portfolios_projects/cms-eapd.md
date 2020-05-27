@@ -17,6 +17,8 @@ project_url:
 learn_more:
 product_clients:
 resources:
+portfolio: Human Services
+featured: true
 ---
 
 <!-- REPLACE EVERYTHING IN HERE WITH eAPD CONTENT -->

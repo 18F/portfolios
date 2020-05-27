@@ -1,5 +1,5 @@
 ---
-agency: State of Vermont
+agency: State of Vermont Agency of Human Services
 title: Building human-centered applications
 subtitle: 
 permalink: /projects/vermont-iee/
@@ -17,6 +17,8 @@ project_url:
 learn_more:
 product_clients:
 resources:
+portfolio: Human Services
+featured: true
 ---
 
 <!-- REPLACE EVERYTHING IN HERE WITH VERMONT IE&E CONTENT -->
