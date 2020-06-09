@@ -65,6 +65,9 @@ collections:
   portfolios:
     output: true
     permalink: /portfolios/:path/
+  portfolios_projects:
+    output: true
+    permalink: /portfolios/:path/
 
 defaults:
  -
@@ -141,6 +144,11 @@ defaults:
      path: "_portfolios"
    values:
      layout: portfolio
+ -
+   scope:
+     path: "_portfolios_projects"
+   values:
+     layout: portfolio-project-page
 
 frontmatter_tests:
   path: "tests/schema"
