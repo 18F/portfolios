@@ -98,3 +98,6 @@
 - name: USDA Food and Nutrition Service
   acronym: FNS
   logo: /assets/img/logos/agencies/USDA.svg
+- name: National Geo-spatial Intelligence Agency
+  acronym: GEOINT
+  logo: 
