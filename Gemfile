@@ -25,7 +25,7 @@ group :development do
   gem 'capybara', '>= 3.29.0'
   gem 'chromedriver-helper', '>= 2.1.1'
   gem 'colorize'
-  gem 'pry'
+  gem 'pry', '~> 0.10.4'
   gem 'rack-jekyll', '>= 0.5.0'
   gem 'rb-readline'
   gem 'rspec'
