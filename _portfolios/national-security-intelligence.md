@@ -60,6 +60,6 @@ National defense and intelligence agencies are responsible for keeping our count
   </section>
 </section>
 
-{% include contact-button-stacked.html extra_class='full-width-inside-grid' message='Can we help your program? Let’s talk.' button_text='Contact us' %}
+{% include contact-button-stacked.html extra_class='full-width-inside-grid' message='<b>Can we help your program? Let’s talk.</b>' button_text='Contact us' %}
 
 {% include quote.html extra_class="wider-than-two-thirds" text='Many defense programs, by official mandate, have been hypothetically practicing “agile” software development for many years—they’ve got vocabulary and ceremonies and Agile/SCRUM/SAFe training slide decks, but are short on realizing much benefit. These programs need help addressing second-order process problems.' %}
