@@ -96,6 +96,6 @@ Our team of designers, developers, and acquisition specialists are federal emplo
   </section>
 </section>
 
-{% include contact-button.html extra_class='full-width-inside-grid' message='<span class="normal-text">Can we help your program? Let\'s talk.</span>' button_text='Contact us' %}
+{% include contact-button-stacked.html extra_class='full-width-inside-grid' message='<span class="normal-text">Can we help your program? Let\'s talk.</span>' button_text='Contact us' %}
 
 {% include quote.html extra_class="wider-than-two-thirds" text='We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the electronic Advanced Planning Document (eAPD) to meet user needs and deliver value early and often.' person='Jerome Lee, Centers for Medicare and Medicaid Services' logo="Center for Medicaid and Medicare Services" %}
