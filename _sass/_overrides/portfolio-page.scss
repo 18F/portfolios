@@ -1,7 +1,3 @@
-.portfolio-content ul.list-columns {
-  margin-bottom: 2.4rem;
-}
-
 .portfolio-content .wider-than-two-thirds {
   width: 99vw;
 }
@@ -25,8 +21,26 @@ a.usa-button.usa-button-secondary {
 }
 
 @media screen and (min-width: 600px) {
+  .portfolio-content ul.list-columns {
+    margin-bottom: 2.5rem;
+  }
+
+  .portfolio-content ul.list-columns li.list-images-item {
+    margin-bottom: 2.5rem;
+  }
+
   .portfolio-content .wider-than-two-thirds .usa-grid-full .usa-width-one-third, .usa-grid .usa-width-one-third {
     margin-right: 4%;
     width: 29%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .portfolio-content ul.list-columns li.list-images-item, .portfolio-content li.usa-width-one-third {
+    margin-bottom: 0;
+  }
+
+  .portfolio-content .usa-grid-full {
+    margin-bottom: 2.8rem
   }
 }
