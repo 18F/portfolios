@@ -2,11 +2,6 @@
   width: 99vw;
 }
 
-.portfolio-highlights .usa-width-one-sixth img {
-  float: right;
-  margin-right: 1rem;
-}
-
 .portfolio-content .home-testimonial {
   margin-top: 5rem;
 }
@@ -32,6 +27,11 @@ a.usa-button.usa-button-secondary {
   .portfolio-content .wider-than-two-thirds .usa-grid-full .usa-width-one-third, .usa-grid .usa-width-one-third {
     margin-right: 4%;
     width: 29%;
+  }
+
+  .portfolio-highlights .usa-width-one-sixth img {
+    float: right;
+    margin-right: 1rem;
   }
 }
 
