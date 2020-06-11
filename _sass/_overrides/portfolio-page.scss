@@ -19,6 +19,11 @@ a.usa-button.usa-button-secondary {
   box-shadow: unset;
 }
 
+.background-dark a.usa-button.usa-button-secondary:focus, a.usa-button.usa-button-secondary:hover {
+  background-color: #ffffff;
+  box-shadow: unset;
+}
+
 @media screen and (min-width: 600px) {
   .portfolio-content .wider-than-two-thirds .usa-grid-full .usa-width-one-third, .usa-grid .usa-width-one-third {
     margin-right: 4%;
