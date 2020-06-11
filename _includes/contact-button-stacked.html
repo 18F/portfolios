@@ -1,6 +1,8 @@
 <section class="usa-section background-dark {{ include.extra_class }}">
   <div class="usa-grid">
-    <h3>{{ include.message | default: "Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways."}}</h3>
+    <div class="usa-width-two-thirds">
+      <h3>{{ include.message | default: "Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways."}}</h3>
       <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}/contact/">{{ include.button_text | default: "Get in touch" }}</a>
+    </div>
   </div>
 </section>
