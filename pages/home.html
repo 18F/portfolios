@@ -10,34 +10,64 @@ redirect_from: /developer/
 <div class="usa-grid">
 
   <h1>18F portfolios</h1>
-  <p class="h3">As 18F teams continue to work with agencies that share a common mission or face similar challenges, our staff have begun to acquire expertise that can be used to address common problems in these domain areas.</p>
-
-  <div class="flex-landing-portfolios">
-    <div class="col">
-      <a href="{{ site.baseurl }}/human-services" class="usa-button usa-button-fancy">
-        <div class="flex-landing-button">
-          <div class="flex-two-thirds fancy-button-text">Human Services Portfolio</div>
-          <div class="flex-one-third fancy-button-icon"><img src="{{ site.baseurl }}/assets/img/arrow-right-circle.svg" alt="Go to portfolio page"></div>
-        </div>
-      </a>
-    </div>
-    <div class="col">
-      <a href="{{ site.baseurl }}/national-security-intelligence" class=" usa-button usa-button-fancy">
-        <div class="flex-landing-button">
-          <div class="flex-two-thirds fancy-button-text">National Security & Intelligence Portfolio</div>
-          <div class="flex-one-third fancy-button-icon"><img height="50%" src="{{ site.baseurl }}/assets/img/arrow-right-circle.svg" alt="Go to portfolio page"></div>
-        </div>
-      </a>
-    </div>
+  <div class="usa-width-two-thirds">
+    <p class="h3">As 18F teams continue to work with agencies that share a common mission or face similar challenges, our staff have begun to acquire expertise that can be used to address common problems in these domain areas.</p>
   </div>
 
 </div>
 
-<section class="usa-section background-dark">
-  <div class="usa-grid">
-    <h3 class="usa-width-three-fourths">Interested in working together?<br></h3>
-    <div class="usa-width-one-fourth">
-      <a class="usa-button usa-button-secondary" href="{{ site.baseurl }}/contact/">{{ include.button_text | default: "Get in touch" }}</a>
+  <section class="usa-section">
+    <div class="usa-grid">
+      <div class="flex-landing-portfolios">
+        <div class="col">
+          <a href="{{ site.baseurl }}/human-services" class="usa-button usa-button-fancy">
+            <div class="flex-landing-button">
+              <div class="flex-three-fourths fancy-button-text">Human Services Portfolio</div>
+              <div class="flex-one-fourth fancy-button-icon">
+                <svg aria-hidden="true" width="50px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="**-Sticker-Sheets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                      <g id="sticker-sheet--top-hits--page-2" transform="translate(-712.000000, -1603.000000)" stroke="#046b99" stroke-width="2">
+                          <g id="icon-preview-row-copy-15" transform="translate(-3.000000, 1579.000000)">
+                              <g id="Icon-Row">
+                                  <g id="arrow-right-circle" transform="translate(709.000000, 18.214286)">
+                                      <path d="M24,41 C33.3888407,41 41,33.3888407 41,24 C41,14.6111593 33.3888407,7 24,7 C14.6111593,7 7,14.6111593 7,24 C7,33.3888407 14.6111593,41 24,41 Z M24,31 L31,24 L24,17 M17,24 L31,24"></path>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="{{ site.baseurl }}/national-security-intelligence" class=" usa-button usa-button-fancy">
+            <div class="flex-landing-button">
+              <div class="flex-three-fourths fancy-button-text">National Security & Intelligence Portfolio</div>
+              <div class="flex-one-fourth fancy-button-icon">
+                <svg aria-hidden="true" width="50px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="**-Sticker-Sheets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                      <g id="sticker-sheet--top-hits--page-2" transform="translate(-712.000000, -1603.000000)" stroke="#046b99" stroke-width="2">
+                          <g id="icon-preview-row-copy-15" transform="translate(-3.000000, 1579.000000)">
+                              <g id="Icon-Row">
+                                  <g id="arrow-right-circle" transform="translate(709.000000, 18.214286)">
+                                      <path d="M24,41 C33.3888407,41 41,33.3888407 41,24 C41,14.6111593 33.3888407,7 24,7 C14.6111593,7 7,14.6111593 7,24 C7,33.3888407 14.6111593,41 24,41 Z M24,31 L31,24 L24,17 M17,24 L31,24"></path>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
     </div>
-  </div>
-</section>
+  </section>
+
+  {% include contact-button-stacked.html extra_class='full-width-inside-grid' message='<b>Interested in working together?</b>' button_text='Get in touch' %}
+
+

@@ -16,16 +16,33 @@
     padding: 0 1rem;
   }
 
+.flex-landing-portfolios a.usa-button-fancy, .flex-landing-portfolios a.usa-button-fancy:visited {
+    box-shadow: inset 0 0 0 2px #046b99;
+    color: #046b99;
+} 
+
+.flex-landing-portfolios a.usa-button-fancy:hover, .flex-landing-portfolios a.usa-button-fancy:focus {
+    background-color: #b3efff;
+    font-weight: 500;
+}
+
 .flex-landing-button {
     display: flex;
     align-items: center;
 }
-  .flex-two-thirds {
-    width: 66%;  
+  .flex-three-fourths {
+    width: 74%;  
   }
-  .flex-one-third {
-    width: 32%;  
+  .flex-one-fourth {
+    width: 24%;  
   }
+
+  @media screen and (min-width: 600px) {
+    .page-home .full-width-inside-grid {
+        left: unset;
+    }
+  }
+
   
   @media (max-width: 768px) {
     .flex-landing-portfolios {
