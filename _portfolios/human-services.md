@@ -36,7 +36,7 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 
 {% include agency_subset.html extra_class='wider-than-two-thirds' %}
 
-{% include contact-button.html extra_class='full-width-inside-grid' message='<span class="normal-text">Too often, technology gets in the way of delivering help to the public in times of need. <b>We anchor projects to outcomes to ensure technology works for the people who need it.</b></span>' button_text='Contact us' %}
+{% include contact-button-stacked.html extra_class='full-width-inside-grid' message='<span class="normal-text">Too often, technology gets in the way of delivering help to the public in times of need. <b>We anchor projects to outcomes to ensure technology works for the people who need it.</b></span>' button_text='Contact us' %}
 
 ## As federal employees, we partner with agencies to deliver better services through:
 

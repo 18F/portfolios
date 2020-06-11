@@ -27,7 +27,7 @@ National defense and intelligence agencies are responsible for keeping our count
 
 {% include agency_subset.html extra_class='wider-than-two-thirds' %}
 
-{% include contact-button.html extra_class='full-width-inside-grid' message='National security and intelligence agencies typically lack sufficient in-house product management and technical expertise to support planned modernization initiatives. Coupled  with existing  oversight processes, progress to modernize agencies legacy IT systems to better meet program objectives, user needs, and organizational goals in a timely manner is often onerous.' button_text='Contact us' %}
+{% include contact-button-stacked.html extra_class='full-width-inside-grid' message='National security and intelligence agencies typically lack sufficient in-house product management and technical expertise to support planned modernization initiatives. Coupled  with existing  oversight processes, progress to modernize agencies legacy IT systems to better meet program objectives, user needs, and organizational goals in a timely manner is often onerous.' button_text='Contact us' %}
 
 ## We partner with government agencies to deliver better digital services to address pain points such as:
 
