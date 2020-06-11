@@ -30,7 +30,7 @@ image_icon:
 project_weight: 2
 project_url:
 ---
-## We believe public w programs can be reliable, accessible, integrated, and effective.
+## We believe public benefits programs can be reliable, accessible, integrated, and effective.
 
 Our team of designers, developers, and acquisition specialists are federal employees working with federal, state, and local agencies including:
 
