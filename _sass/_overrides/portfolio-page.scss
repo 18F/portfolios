@@ -6,6 +6,11 @@
   width: 99vw;
 }
 
+.portfolio-highlights .usa-width-one-sixth img {
+  float: right;
+  margin-right: 1rem;
+}
+
 @media screen and (min-width: 600px) {
   .portfolio-content .wider-than-two-thirds .usa-grid-full .usa-width-one-third, .usa-grid .usa-width-one-third {
     margin-right: 4%;

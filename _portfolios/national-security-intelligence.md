@@ -32,9 +32,9 @@ National defense and intelligence agencies are responsible for keeping our count
 ## We partner with government agencies to deliver better digital services to address pain points such as:
 
 
-<div class="usa-grid">
+<div class="usa-grid portfolio-highlights">
 <div class="usa-width-one-sixth" markdown="1">
-![tablet]({{ site.baseurl }}/assets/img/user-network.svg)
+![]({{ site.baseurl }}/assets/img/user-network.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
 - Adequate personnel for modern software development 

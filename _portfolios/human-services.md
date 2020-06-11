@@ -40,9 +40,9 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 
 ## As federal employees, we partner with agencies to deliver better services through:
 
-<div class="usa-grid">
+<div class="usa-grid portfolio-highlights">
 <div class="usa-width-one-sixth" markdown="1">
-![tablet]({{ site.baseurl }}/assets/img/trending-up.svg)
+![]({{ site.baseurl }}/assets/img/trending-up.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
 ### Outcomes-driven oversight processes
@@ -53,9 +53,9 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 </div>
 {: style="padding-bottom: 4rem;"}
 
-<div class="usa-grid">
+<div class="usa-grid portfolio-highlights">
 <div class="usa-width-one-sixth" markdown="1">
-![tablet]({{ site.baseurl }}/assets/img/tablet-hand.svg)
+![]({{ site.baseurl }}/assets/img/tablet-hand.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
 ### Human-centered experiences for all people
@@ -67,9 +67,9 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 {: style="padding-bottom: 4rem;"}
 
 
-<div class="usa-grid">
+<div class="usa-grid portfolio-highlights">
 <div class="usa-width-one-sixth" markdown="1">
-![tablet]({{ site.baseurl }}/assets/img/user-network.svg)
+![]({{ site.baseurl }}/assets/img/user-network.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
 ### Streamlined agency services
