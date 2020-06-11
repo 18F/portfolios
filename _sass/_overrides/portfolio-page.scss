@@ -1,3 +1,14 @@
 .portfolio-content ul.list-columns {
   margin-bottom: 2.4rem;
 }
+
+.portfolio-content .wider-than-two-thirds {
+  width: 99vw;
+}
+
+@media screen and (min-width: 600px) {
+  .portfolio-content .wider-than-two-thirds .usa-grid-full .usa-width-one-third, .usa-grid .usa-width-one-third {
+    margin-right: 4%;
+    width: 29%;
+  }
+}
