@@ -6,13 +6,10 @@ redirect_from: /dashboard/
 redirect_from: /developer/
 ---
 
-
 <div class="usa-grid">
-
   <div class="usa-width-two-thirds">
     <p class="h3 portfolio-landing">As 18F teams continue to work with agencies that share a common mission or face similar challenges, our staff have begun to acquire expertise that can be used to address common problems in these domain areas.</p>
   </div>
-
 </div>
 
   <section class="usa-section">
@@ -63,10 +60,17 @@ redirect_from: /developer/
           </a>
         </div>
       </div>
-
     </div>
   </section>
 
-  {% include contact-button-stacked.html extra_class='full-width-inside-grid' message='<b>Interested in working together?</b>' button_text='Get in touch' %}
-
-
+  <div class="usa-section background-dark section-cta">
+    <div class="usa-grid">
+      <div class="usa-width-one-fourth">
+        <img src="{{ site.baseurl }}/assets/img/talk-bubble.svg" class="home-cta-icon" alt="">
+      </div>
+      <div class="usa-width-three-fourths">
+        <p>Interested in working together?</p>
+        <a class="usa-button usa-button-secondary" href="/contact/">Get in touch</a>
+      </div>
+    </div>
+  </div>

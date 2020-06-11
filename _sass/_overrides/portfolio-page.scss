@@ -15,6 +15,11 @@ a.usa-button.usa-button-secondary {
   box-shadow: unset;
 }
 
+img.home-cta-icon {
+  width: 8rem;
+  margin-bottom: 3rem;
+}
+
 @media screen and (min-width: 600px) {
   .portfolio-content ul.list-columns {
     margin-bottom: 2.5rem;
@@ -32,6 +37,17 @@ a.usa-button.usa-button-secondary {
   .portfolio-highlights .usa-width-one-sixth img {
     float: right;
     margin-right: 1rem;
+  }
+
+  .usa-width-one-fourth > img.home-cta-icon {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .site-logo-text {
+    visibility: visible;
+    width: auto;
   }
 }
 
