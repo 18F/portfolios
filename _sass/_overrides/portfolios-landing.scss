@@ -28,6 +28,8 @@
 .flex-landing-portfolios a.usa-button-fancy, .flex-landing-portfolios a.usa-button-fancy:visited {
     box-shadow: inset 0 0 0 2px #046b99;
     color: #1F2E4A;
+    margin-bottom: 0 !important;
+    margin-top: 2rem !important;
 } 
 
 .flex-landing-portfolios a.usa-button-fancy:hover, .flex-landing-portfolios a.usa-button-fancy:focus {
@@ -62,3 +64,12 @@
       }
     }
   }
+
+
+  @media (max-width: 599px) {
+    .h3.portfolio-landing {
+      font-weight: 400;
+      font-size: 2.4rem;
+    }
+  }
+  
