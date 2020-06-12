@@ -1,10 +1,9 @@
-<nav class="usa-accordion footer-mobile">
-  <ul class="usa-sidenav-list">
-    <li>
-      <button aria-expanded="false" aria-controls="amendment-1">
-        Site menu
-      </button>
-      <ul id="amendment-1" class="usa-accordion-content usa-sidenav-sub_list">
+<nav class="footer-mobile" aria-label="footer links">
+  <ul>
+    <li class="menu-group">
+      <div class="h6">Site menu</div>
+      <ul class="usa-sidenav-sub_list">
+        <li><a href="https://18f.gsa.gov">18F</a></li>
       {% for item in include.nav_items %}
         <li>
           {% if item.permalink %}
@@ -17,35 +16,11 @@
       {% endfor %}
       </ul>
     </li>
-    <li>
-      <button aria-controls="amendment-2">
-        Policies and Standards
-      </button>
-      <ul id="amendment-2" class="usa-accordion-content usa-sidenav-sub_list">
+    <li class="menu-group">
+      <div class="h6">Contact us</div>
+      <ul class="usa-sidenav-sub_list">
         <li>
-          <a href="{{ site.baseurl }}/guides">Guides</a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/linking-policy/">Linking policy</a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/open-source-policy/">Open source policy</a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/vulnerability-disclosure-policy/">Vulnerability disclosure</a>
-        </li>
-        <li>
-          <a href="{{ site.baseurl }}/code-of-conduct/">Code of Conduct</a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <button aria-controls="amendment-3">
-        Contact us
-      </button>
-      <ul id="amendment-3" class="usa-accordion-content usa-sidenav-sub_list">
-        <li>
-          <a href="{{ site.baseurl }}/about/#for-press">Press</a>
+          <a href="https://18f.gsa.gov/about/#for-press">Press</a>
         </li>
         <li>
           <a href="https://twitter.com/18F">@18F</a>
@@ -54,7 +29,7 @@
           <a href="mailto:18F@gsa.gov">18F@gsa.gov</a>
         </li>
         <li>
-          <a href="https://github.com/18F/18f.gsa.gov/issues/new">Report a bug</a>
+          <a href="https://github.com/18F/portfolios/issues/new">Report a bug</a>
         </li>
       </ul>
     </li>
