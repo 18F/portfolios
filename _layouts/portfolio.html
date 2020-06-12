@@ -6,12 +6,7 @@ header_border: true
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
 
-{% include breadcrumb.html
-  parent_permalink='/how-we-work/'
-  parent_title='How we work'
-%}
-
-<section class="background-dark">
+<section class="usa-section background-dark">
   <div class="usa-grid-full usa-flex">
     <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
       {% if page.name %}
@@ -40,7 +35,7 @@ header_border: true
   </div>
 </section>
 
-<section>
+<section class="portfolio-content">
   <div class="usa-grid">
     <section class="usa-section usa-width-two-thirds page-tag-results-content">
       {{ content }}

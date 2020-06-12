@@ -30,19 +30,19 @@ image_icon:
 project_weight: 2
 project_url:
 ---
-## We believe public w programs can be reliable, accessible, integrated, and effective.
+## We believe public benefits programs can be reliable, accessible, integrated, and effective.
 
 Our team of designers, developers, and acquisition specialists are federal employees working with federal, state, and local agencies including:
 
 {% include agency_subset.html extra_class='wider-than-two-thirds' %}
 
-{% include contact-button.html extra_class='full-width-inside-grid' message='<span class="normal-text">Too often, technology gets in the way of delivering help to the public in times of need. <b>We anchor projects to outcomes to ensure technology works for the people who need it.</b></span>' button_text='Contact us' %}
+{% include contact-button-stacked.html extra_class='full-width-inside-grid' message='<span class="normal-text">Too often, technology gets in the way of delivering help to the public in times of need. <b>We anchor projects to outcomes to ensure technology works for the people who need it.</b></span>' button_text='Contact us' %}
 
 ## As federal employees, we partner with agencies to deliver better services through:
 
-<div class="usa-grid">
+<div class="usa-grid portfolio-highlights">
 <div class="usa-width-one-sixth" markdown="1">
-![tablet]({{ site.baseurl }}/assets/img/trending-up.svg)
+![]({{ site.baseurl }}/assets/img/trending-up.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
 ### Outcomes-driven oversight processes
@@ -53,9 +53,9 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 </div>
 {: style="padding-bottom: 4rem;"}
 
-<div class="usa-grid">
+<div class="usa-grid portfolio-highlights">
 <div class="usa-width-one-sixth" markdown="1">
-![tablet]({{ site.baseurl }}/assets/img/tablet-hand.svg)
+![]({{ site.baseurl }}/assets/img/tablet-hand.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
 ### Human-centered experiences for all people
@@ -67,9 +67,9 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 {: style="padding-bottom: 4rem;"}
 
 
-<div class="usa-grid">
+<div class="usa-grid portfolio-highlights">
 <div class="usa-width-one-sixth" markdown="1">
-![tablet]({{ site.baseurl }}/assets/img/user-network.svg)
+![]({{ site.baseurl }}/assets/img/user-network.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
 ### Streamlined agency services
@@ -96,6 +96,6 @@ Our team of designers, developers, and acquisition specialists are federal emplo
   </section>
 </section>
 
-{% include contact-button.html extra_class='full-width-inside-grid' message='<span class="normal-text">Can we help your program? Let\'s talk.</span>' button_text='Contact us' %}
+{% include contact-button-stacked.html extra_class='full-width-inside-grid' message='<b>Can we help your program? Let’s talk.</b>' button_text='Contact us' %}
 
 {% include quote.html extra_class="wider-than-two-thirds" text='We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the electronic Advanced Planning Document (eAPD) to meet user needs and deliver value early and often.' person='Jerome Lee, Centers for Medicare and Medicaid Services' logo="Center for Medicaid and Medicare Services" %}

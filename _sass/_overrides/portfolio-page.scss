@@ -1,0 +1,62 @@
+.portfolio-content .wider-than-two-thirds {
+  width: 99vw;
+}
+
+.portfolio-content .home-testimonial {
+  margin-top: 5rem;
+}
+
+a.usa-button.usa-button-secondary {
+  box-shadow: unset;
+}
+
+.background-dark a.usa-button.usa-button-secondary:focus, a.usa-button.usa-button-secondary:hover {
+  background-color: #ffffff;
+  box-shadow: unset;
+}
+
+img.home-cta-icon {
+  width: 8rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 600px) {
+  .portfolio-content ul.list-columns {
+    margin-bottom: 2.5rem;
+  }
+
+  .portfolio-content ul.list-columns li.list-images-item {
+    margin-bottom: 2.5rem;
+  }
+
+  .portfolio-content .wider-than-two-thirds .usa-grid-full .usa-width-one-third, .usa-grid .usa-width-one-third {
+    margin-right: 4%;
+    width: 29%;
+  }
+
+  .portfolio-highlights .usa-width-one-sixth img {
+    float: right;
+    margin-right: 1rem;
+  }
+
+  .usa-width-one-fourth > img.home-cta-icon {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .site-logo-text {
+    visibility: visible;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .portfolio-content ul.list-columns li.list-images-item, .portfolio-content li.usa-width-one-third {
+    margin-bottom: 0;
+  }
+
+  .portfolio-content .usa-grid-full {
+    margin-bottom: 2.8rem
+  }
+}
