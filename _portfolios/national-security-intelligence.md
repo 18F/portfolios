@@ -47,7 +47,7 @@ National defense and intelligence agencies are responsible for keeping our count
 
 <section class="usa-section full-width-inside-grid background-gray">
   <section class="usa-grid">
-    <h2>Our projects</h2>
+    <h2>Examples of our work</h2>
     {% include card-portfolio-project.html
        project='geoint'
     %}
