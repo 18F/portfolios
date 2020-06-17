@@ -4,7 +4,7 @@ title: Building human-centered applications
 subtitle: 
 permalink: /projects/vermont-iee/
 redirect_from: 
-excerpt: We helped Vermont Integrated Eligibility and Enrollment learn how to work in iterative ways while unwinding from their legacy system.
+excerpt: We helped Vermont work in iterative ways while pursuing integrated eligibility and enrollment.
 image: /assets/img/portfolios/project-cards/vermont.png
 image_accessibility: Diagram of showing human icon with question thought bubble connecting to a document icon and computer interface icons.
 image_icon:
