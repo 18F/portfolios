@@ -1,12 +1,12 @@
 ---
 agency: DOD Defense Travel Management Office (DTMO) 
-title: Strategic evaluation and insight
+title: Strategic website redesign assessment
 subtitle: 
 permalink: /projects/dtmo/
 redirect_from: 
 excerpt: The Defense Travel Management Office’s (DTMO) website provides an inventory of travel information for Department of Defense (DoD) Service members and civilian staff, but limited insight into how visitors engage with the website has created usability problems and inconsistent user experience. 
-image: /assets/img/portfolios/project-cards/eAPD.png
-image_accessibility: Screenshots of wireframes for state eAPD dashboards to serve the needs of system users.
+image: /assets/img/portfolios/project-cards/IMG_0030_DTMO_Proj_Pics.jpg
+image_accessibility: Photo of an affinity map from DTMO workshop to end user needs.
 image_icon:
 project_weight: 3
 tag: 
