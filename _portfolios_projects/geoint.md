@@ -5,7 +5,7 @@ subtitle:
 permalink: /projects/geoint/
 redirect_from: 
 excerpt: The National Geo-spatial Intelligence Agency GEOINT Services product teams wanted to identify the problems that hindered their ability to provide agile delivery and great customer experiences across the enterprise. 
-image: /assets/img/portfolios/project-cards/NGA_Seal_150dpi_GEOINT.jpg
+image: /assets/img/portfolios/project-cards/geoint.jpg
 image_accessibility: Seal of National Geospatial-Intelligence Agency.
 image_icon:
 project_weight: 3

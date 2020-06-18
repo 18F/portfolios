@@ -5,7 +5,7 @@ subtitle:
 permalink: /projects/afmc/
 redirect_from: 
 excerpt: The 412th Operations Group of the Air Force Material Command (AFMC) was looking for help to modernize their legacy Center Ops Online (COOL) system, which had been developed over the past 19 years and was ready for a holistic user-based refresh.  
-image: /assets/img/portfolios/project-cards/AFCOOL_Airplane_Photo.JPG
+image: /assets/img/portfolios/project-cards/afcool.jpg
 image_accessibility: Photo of an Air Force airplane at the 412th operations group of the Air Force Material Command (AFMC) site.
 image_icon:
 project_weight: 3
