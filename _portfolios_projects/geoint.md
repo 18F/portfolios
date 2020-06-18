@@ -1,12 +1,12 @@
 ---
-agency: National Geo-spatial Intelligence Agency
+agency: National Geospatial Intelligence Agency
 title: Empowering and supporting product teams
 subtitle: 
 permalink: /projects/geoint/
 redirect_from: 
-excerpt: The National Geo-spatial Intelligence Agency GEOINT Services product teams wanted to identify the problems that hindered their ability to provide agile delivery and great customer experiences across the enterprise. GEOINT Services sought a vision for  product teams, analysis of how their teams are currently structured, recommendations for how to restructure and empower product teams, and how best to procure product support.
-image: /assets/img/portfolios/project-cards/eAPD.png
-image_accessibility: Screenshots of wireframes for state eAPD dashboards to serve the needs of system users.
+excerpt: The National Geo-spatial Intelligence Agency GEOINT Services product teams wanted to identify the problems that hindered their ability to provide agile delivery and great customer experiences across the enterprise. 
+image: /assets/img/portfolios/project-cards/NGA_Seal_150dpi_GEOINT.jpg
+image_accessibility: Seal of National Geospatial-Intelligence Agency.
 image_icon:
 project_weight: 3
 tag: 
