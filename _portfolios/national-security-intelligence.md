@@ -14,6 +14,17 @@ show_blog_posts: false
 published: true
 listed: true
 
+# NOTE: if adding a new partner, make sure that they exist in _data/agencies.yml
+partners:
+- Defense Travel Management Office
+- U.S. Navy
+- U.S. Marine Corps
+- U.S. Air Force
+- National Nuclear Security Administration
+- National Geospatial-Intelligence Agency
+- U.S. Marine Corps Installations Command
+- Army Research Lab
+- Department of Defense, Education Activity Cyber Training Ranges
 
 image:
 image_accessibility:

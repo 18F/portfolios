@@ -12,6 +12,9 @@
 - name: Consumer Financial Protection Bureau
   acronym: CFBP
   logo: /assets/img/logos/agencies/cfpb.png
+- name: Defense Travel Management Office
+  acronym: DTMO
+  logo: /assets/img/logos/agencies/dtmo-seal.png
 - name: Department of Agriculture
   acronym: USDA
   logo: /assets/img/logos/agencies/USDA.svg
@@ -98,6 +101,15 @@
 - name: USDA Food and Nutrition Service
   acronym: FNS
   logo: /assets/img/logos/agencies/USDA.svg
-- name: National Geo-spatial Intelligence Agency
-  acronym: GEOINT
-  logo: 
+- name: Department of Defense, Education Activity Cyber Training Ranges
+  acronym: DODEACTR
+  logo: /assets/img/logos/agencies/dod.svg
+- name: National Nuclear Security Administration
+  acronym: NNSA
+  logo: /assets/img/logos/agencies/nnsa-seal.png
+- name: U.S. Marine Corps Installations Command
+  acronym: USMCIC
+  logo: /assets/img/logos/agencies/usmcic.png
+- name: Army Research Lab
+  acronym: ARL
+  logo: /assets/img/logos/agencies/arl.png
