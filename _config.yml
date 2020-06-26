@@ -1,14 +1,14 @@
 # Site settings
-title: "18F: Digital service delivery"
-description: "18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves."
+title: "18F Portfolios: Digital service delivery"
+description: "As 18F teams continue to work with agencies that share a common mission or face similar challenges, our staff have begun to acquire expertise that can be used to address common problems in these domain areas."
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
-url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
+url: "https://portfolios.18f.gsa.gov" # the base hostname & protocol for your sites
 localhost: "localhost:4000"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
 tag_dir: tags
-github_repo: https://github.com/18F/18f.gsa.gov/blob/master
+github_repo: https://github.com/18F/portfolios/blob/release
 
 related_posts: 3
 
@@ -32,36 +32,9 @@ jekyll-archives:
     tag: '/tags/:name/'
 
 collections:
-  about:
-    output: true
-    permalink: /:path/
-  principles:
-    output: true
-    permalink: /partnership-principles/:path/
-  join:
-    output: true
-    permalink: /join/:path/
   authors:
     output: true
     permalink: /author/:name/
-  press:
-    output: true
-    permalink: /press/:name/
-  products_projects:
-    output: true
-    permalink: /what-we-deliver/:path/
-  services_projects:
-    output: true
-    permalink: /what-we-deliver/:path/
-  contact:
-    output: false
-    permalink: /contact/:path/
-  code_of_conduct:
-    output: true
-    permalink: /code-of-conduct/:path/
-  styleguide:
-    output: true
-    permalink: /styleguide/:path/
   portfolios:
     output: true
     permalink: /portfolios/:path/
@@ -85,60 +58,6 @@ defaults:
     path: "_authors"
   values:
     layout: default-profile
- -
-  scope:
-    path: "_contact"
-  values:
-    layout: primary
-    # include_subnav: true
-    subnav_anchor: /contact/
- -
-  scope:
-    path: "_about"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /about/
- -
-  scope:
-    path: "_code_of_conduct"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /code-of-conduct/
- -
-  scope:
-    path: "_principles"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /partnership-principles/
- -
-  scope:
-    path: "_join"
-  values:
-    layout: primary
-    include_subnav: true
-    subnav_anchor: /join/
-    parent_title: Join 18F
-    parent_permalink: /join/
- -
-  scope:
-    path: "_products_projects"
-  values:
-    layout: project-page
- -
-  scope:
-    path: "_services_projects"
-  values:
-    layout: project-page
-
- -
-  scope:
-    path: "_styleguide"
-  values:
-    layout: styleguide
-    include_subnav: true
  -
    scope:
      path: "_portfolios"
