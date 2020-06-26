@@ -43,11 +43,11 @@ collections:
     permalink: /portfolios/:path/
 
 defaults:
- -
+ - 
   scope:
-    type: "posts" # an empty string here means all files in the project
-  values:
-    layout: post
+    path: "posts"
+  values: 
+    layout: primary 
  -
   scope:
     path: "pages"
