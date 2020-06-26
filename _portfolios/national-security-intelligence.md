@@ -46,7 +46,7 @@ Our teams give action-oriented analysis of routes to pursue. We consider opportu
 
 <div class="usa-grid portfolio-highlights">
 <div class="usa-width-one-sixth" markdown="1">
-![]({{ site.baseurl }}/assets/img/user-network--c.svg)
+![]({{ site.baseurl }}/assets/img/usernetwork-blue.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
 ### Custom software development
@@ -58,7 +58,7 @@ We work side-by-side with your team to begin the process of implementing a new s
 
 <div class="usa-grid portfolio-highlights">
 <div class="usa-width-one-sixth" markdown="1">
-![]({{ site.baseurl }}/assets/img/database.svg)
+![]({{ site.baseurl }}/assets/img/database-blue.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
 ### Data strategy development
@@ -70,7 +70,7 @@ Complete a domain scan to identify all relevant sources of data that can be leve
 
 <div class="usa-grid portfolio-highlights">
 <div class="usa-width-one-sixth" markdown="1">
-![]({{ site.baseurl }}/assets/img/award-2--c.svg)
+![]({{ site.baseurl }}/assets/img/award-blue.svg)
 </div>
 <div class="usa-width-five-sixths" markdown="1">
 ### Agile acquisitions
