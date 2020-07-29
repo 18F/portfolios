@@ -3,7 +3,7 @@ title: "18F Portfolios: Digital service delivery"
 description: "As 18F teams continue to work with agencies that share a common mission or face similar challenges, our staff have begun to acquire expertise that can be used to address common problems in these domain areas."
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
-url: "https://portfolios.18f.gsa.gov" # the base hostname & protocol for your sites
+url: "https://portfolios.18f.gov" # the base hostname & protocol for your sites
 localhost: "localhost:4000"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
