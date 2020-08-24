@@ -1,7 +1,7 @@
 .usa-button-fancy {
-  background-color: $color-white;
-  box-shadow: $button-stroke $color-primary;
-  color: $color-primary;
+  background-color: color('white');
+  box-shadow: $button-stroke $theme-color-primary;
+  color: $theme-color-primary;
   padding: 3rem;
   margin-top: 4rem !important;
   margin-bottom: 4rem !important;
@@ -12,26 +12,39 @@
 
   &:hover,
   &.usa-button-hover {
-    box-shadow: $button-stroke $color-primary-darker;
-    color: $color-white;
+    box-shadow: $button-stroke $theme-color-primary-dark;
+    color: color('white');
   }
 
   &:active,
   &.usa-button-active {
-    box-shadow: $button-stroke $color-primary-darkest;
-    color: $color-primary-darkest;
+    box-shadow: $button-stroke $theme-color-primary-darker;
+    color: $theme-color-primary-darker;
   }
 
   &:visited,
   &.usa-button-visited {
-    background-color: $color-white;
-    box-shadow: $button-stroke $color-primary;
-    color: $color-primary;
+    background-color: color('white');
+    box-shadow: $button-stroke $theme-color-primary;
+    color: $theme-color-primary;
+  }
+}
+
+.portfolio-highlights img {
+  height: 120px;
+  width: 20%;
+
+  @include at-media('tablet') {
+    width: 75%;
   }
 }
 
 .normal-text {
   font-weight: normal;
+}
+
+.white-text, .white-text > b {
+  color: white;
 }
 
 .fancy-button-icon {

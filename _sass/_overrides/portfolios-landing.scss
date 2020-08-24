@@ -10,12 +10,12 @@
   .flex-landing-portfolios .col {
     flex: 1;
     width: 50%;
-    display: flex; 
+    display: flex;
     padding: 0.5em;
     width: 100%;
   }
   .fancy-button-text {
-    font-size: 2.4rem;  
+    font-size: 2.4rem;
   }
   .usa-grid {
     padding: 0 1rem;
@@ -30,7 +30,7 @@
     color: #1F2E4A;
     margin-bottom: 0 !important;
     margin-top: 2rem !important;
-} 
+}
 
 .flex-landing-portfolios a.usa-button-fancy:hover, .flex-landing-portfolios a.usa-button-fancy:focus {
     background-color: #b3efff;
@@ -42,19 +42,19 @@
     align-items: center;
 }
   .flex-three-fourths {
-    width: 74%;  
+    width: 74%;
   }
   .flex-one-fourth {
-    width: 24%;  
+    width: 24%;
   }
 
-  @media screen and (min-width: 600px) {
-    .page-home .full-width-inside-grid {
-        left: unset;
-    }
-  }
+  // @media screen and (min-width: 600px) {
+  //   .page-home .full-width-inside-grid {
+  //       left: unset;
+  //   }
+  // }
 
-  
+
   @media (max-width: 768px) {
     .flex-landing-portfolios {
       display: block;
@@ -72,4 +72,3 @@
       font-size: 2.4rem;
     }
   }
-  

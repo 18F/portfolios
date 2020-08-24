@@ -1,6 +1,6 @@
-.portfolio-content .wider-than-two-thirds {
-  width: 99vw;
-}
+// .portfolio-content .wider-than-two-thirds {
+//   width: 99vw;
+// }
 
 .portfolio-content .home-testimonial {
   margin-top: 5rem;
@@ -44,12 +44,12 @@ img.home-cta-icon {
   }
 }
 
-@media screen and (max-width: 775px) {
-  .site-logo-text {
-    visibility: visible;
-    width: auto;
-  }
-}
+// @media screen and (max-width: 775px) {
+//   .site-logo-text {
+//     visibility: visible;
+//     width: auto;
+//   }
+// }
 
 @media screen and (max-width: 599px) {
   .portfolio-content ul.list-columns li.list-images-item, .portfolio-content li.usa-width-one-third {
@@ -63,7 +63,7 @@ img.home-cta-icon {
   nav.footer-mobile {
     margin: 0 1.5rem;
   }
-  
+
   li.menu-group .h6 {
     padding-top: 2.6rem;
   }

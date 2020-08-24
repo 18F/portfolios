@@ -1,27 +1,35 @@
-<section class="usa-section usa-grid {{ include.extra_class }}">
+<section class="usa-section {{ include.extra_class }}">
   <!-- <section class="usa-grid"> -->
     {% assign subset_partners = page.partners %}
     {% assign agency_partners = site.data.agencies | where_exp:"agency","subset_partners contains agency.name" %}
     {% assign partner_groups = agency_partners | in_groups: 3 %}
-    <div class="usa-grid-full">
-      <ul class="list-columns">
-      {% for group in partner_groups %}
-        <li class="usa-width-one-third">
+    <section>
+      <ul class="grid-row list-columns grid-gap">
+        {% for group in partner_groups %}
+        <li class="tablet:grid-col-4">
           <ul class="list-columns list-images">
-          {% for partner in group %}
+            {% for partner in group %}
             <li class="list-images-item">
-              <img class="list-images-image" src="{{ partner.logo | prepend: site.baseurl }}" alt="" />
+              <img
+                class="list-images-image"
+                src="{{ partner.logo | prepend: site.baseurl }}"
+                alt="{{ partner.logo }} logo"
+              />
               {% if partner.agency_url %}
-                <a class="list-images-text" href="{{ partner.agency_url | prepend: site.baseurl }}">{{ partner.name }}</a>
+              <a
+                class="list-images-text"
+                href="{{ partner.agency_url | prepend: site.baseurl }}"
+                >{{ partner.name }}</a
+              >
               {% else %}
-                <span class="list-images-text">{{ partner.name }}</span>
+              <span class="list-images-text">{{ partner.name }}</span>
               {% endif %}
             </li>
-          {% endfor %}
+            {% endfor %}
           </ul>
         </li>
-      {% endfor %}
+        {% endfor %}
       </ul>
-    </div>
+    </section>
   <!-- </section> -->
 </section>

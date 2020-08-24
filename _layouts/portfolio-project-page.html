@@ -14,14 +14,14 @@ header_border: true
 <section class="page-tag-results">
 
   <section class="background-dark">
-    <div class="usa-grid-full usa-flex">
-      <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
+    <div class="grid-container usa-flex">
+      <div class="grid-container {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero__callout-full hero__callout-no_button">
         {% if page.agency %}
           <h1 class="h3">
-          <span class="hero-callout-alt_color">{{ page.agency }}</span>
+          <span class="hero__callout-alt_color">{{ page.agency }}</span>
           </h1>
         {% endif %}
-        <h1 class="hero-callout-title-secondary">
+        <h1 class="hero__callout-title-secondary">
           {{ page.title }}
         </h1>
       </div>
@@ -32,13 +32,13 @@ header_border: true
           title="{{ page.image_accessibility }}">
         </div>
       {% else %}
-        <div class="hero hero-img-collapsed" style="background-image: none">
+        <div class="hero hero__img-collapsed" style="background-image: none">
         </div>
       {% endif %}
     </div>
   </section>
 
-  <div class="usa-grid-full usa-grid-reversed">
+  <div class="grid-container usa-grid-reversed">
     {% if page.agency or
           page.project_url or
           page.github_repo or
@@ -47,7 +47,7 @@ header_border: true
           page.expiration_date or
           page.resources
     %}
-    <aside class="usa-grid usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
+    <aside class="grid-container usa-section usa-grid-reversed-right usa-width-one-third section-info section-info-gray">
       <ul>
         {% if page.quote %}
           <blockquote>
@@ -129,7 +129,7 @@ header_border: true
     </aside>
     {% endif %}
 
-    <div class="usa-grid usa-width-two-thirds">
+    <div class="grid-container usa-width-two-thirds">
       <section class="usa-section page-tag-results-content">
         <div class="small-caps small-caps-no-margin">Background</div>
         <h3>{{ page.subtitle }}</h3>
@@ -140,7 +140,7 @@ header_border: true
   {% if matching_posts.size > 0 %}
   <div class="background-gray">
     <div class="usa-section post-border">
-      <section class="usa-grid posts_feature">
+      <section class="grid-container posts_feature">
         <div class="{% if matching_posts.size > 3 %}usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer{% endif %}">
           <h2>Related blog posts</h2>
           {% if matching_posts.size > 3 %}
