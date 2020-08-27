@@ -1,0 +1,46 @@
+---
+agency: 10x
+title: Eligibility APIs Initiative
+permalink: /projects/hs-apis/
+layout: hs-apis-page
+portfolio: Human Services
+featured: false
+---
+
+## Human services software that’s faster, cheaper, and more secure to update
+
+Human services agencies need to continually update their benefits systems when policy changes, new risks emerge, or new needs arise. This is risky, time-consuming, expensive work.
+
+It is also duplicative. Agencies often need similar functionality or updates—such as when a new federal law must be implemented across all states and territories. But agency systems are typically unique and separated from others. Updated policy or functionality in one system rarely propagates to other systems.
+
+<div class="small-caps small-caps-no-margin">Value proposition</div>
+
+The true value of a digital system extends beyond what it can do by itself. The connections it makes to other systems are also incredibly valuable. Connected systems can share policy, information, and code and can present a more coherent and streamlined experience to the public.
+
+Systems can be connected together in different ways: through Application Programming Interfaces (APIs), through shared software libraries, or by publishing eligibility rules as open-source computer code. (Learn more about these terms and approaches.)
+
+**Systems that are designed to communicate with each other can do things that siloed systems can’t**:
+
+* Centers for Medicare & Medicaid Services (CMS) has used APIs to help beneficiaries, health care providers, and researchers coordinate care and securely share important patient information.
+* The Veteran’s Administration (VA)’s API platform allows veterans to easily view their VA health records together with all their other health care records inside the iPhone Health app or on their Android devices.
+
+**The human services eligibility space faces several challenges that could be productively addressed by systems that are designed to communicate with each other**:
+* Applicants are often eligible for more than one benefit, and interact with more than one system.
+* Programs often have overlapping, or similar eligibility criteria to each other.
+* Policies change continuously—and sometimes unpredictably—with grave consequences to programs and beneficiaries if systems fall out of sync with the law.
+
+**Designing systems to communicate with each other (an “API-driven” approach) could mean that**:
+* an updated policy can propagate through multiple systems without each of those systems needing to individually code it themselves;
+agencies can update individual pieces of their system without having to modify the entire system;
+* different systems can share information instead of requiring beneficiaries or program staff to enter the same information multiple times;
+* agencies with similar informational or functional needs can pool their resources to build and maintain shared tools instead of each building their own unique, incompatible solutions.
+
+## What you can do next to get started
+
+We conducted research with government agencies, created sample procurement language, and built prototype software to help agencies explore these opportunities. See below for resources that will help your agency put these techniques into practice:
+
++ [Why should your federal human services agency invest in an eligibility services approach?]()
++ [How can your agency buy flexible, reusable technology that’s easier and faster to update?]()
++ [How could your agency or organization avoid writing and rewriting eligibility rules for the SNAP program?]()
+
+Have feedback, suggestions, or questions about how to implement these ideas? Get in touch at eligibility-apis-initiative@gsa.gov.
