@@ -5,6 +5,14 @@ permalink: /projects/hs-apis/
 layout: hs-apis-page
 portfolio: Human Services
 featured: false
+include_subnav: true
+subnav_items:
+  - text: Home
+    permalink: /projects/hs-apis/
+  - text: Buy
+    permalink: /projects/hs-apis-buy/
+  - text: SNAP Calculator
+    permalink: /projects/hs-apis-calc/
 ---
 
 ## Human services software that’s faster, cheaper, and more secure to update
