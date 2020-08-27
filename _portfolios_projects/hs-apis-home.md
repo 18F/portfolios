@@ -7,11 +7,9 @@ portfolio: Human Services
 featured: false
 include_subnav: true
 subnav_items:
-  - text: Home
-    permalink: /projects/hs-apis/
-  - text: Buy
+  - text: Procurement resources for agencies
     permalink: /projects/hs-apis-buy/
-  - text: SNAP Calculator
+  - text: Reusable SNAP API and calculator
     permalink: /projects/hs-apis-calc/
 ---
 

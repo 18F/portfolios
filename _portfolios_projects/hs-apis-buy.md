@@ -1,17 +1,16 @@
 ---
 agency: 10x
-title: Eligibility APIs Initiative -- Sample Procurement Language
+title: Procurement resources for agencies
 permalink: /projects/hs-apis-buy/
 layout: hs-apis-page
 portfolio: Human Services
 featured: false
 include_subnav: true
+subnav_title:
 subnav_items:
-  - text: Home
+  - text: Eligibility APIs Initiative
     permalink: /projects/hs-apis/
-  - text: Buy
-    permalink: /projects/hs-apis-buy/
-  - text: SNAP Calculator
+  - text: Reusable SNAP API and calculator
     permalink: /projects/hs-apis-calc/
 ---
 

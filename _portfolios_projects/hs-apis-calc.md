@@ -1,18 +1,16 @@
 ---
 agency: 10x
-title: Eligibility APIs Initiative -- Reusable SNAP Calculator
+title: Reusable SNAP API and calculator
 permalink: /projects/hs-apis-calc/
 layout: hs-apis-page
 portfolio: Human Services
 featured: false
 include_subnav: true
 subnav_items:
-  - text: Home
+  - text: Eligibility APIs Initiative
     permalink: /projects/hs-apis/
-  - text: Buy
+  - text: Procurement resources for agencies
     permalink: /projects/hs-apis-buy/
-  - text: SNAP Calculator
-    permalink: /projects/hs-apis-calc/
 ---
 
 ## Reuse or extend the SNAP benefit calculator
