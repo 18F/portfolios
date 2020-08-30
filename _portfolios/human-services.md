@@ -40,7 +40,7 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 
 </section>
 
-{% include contact-button-stacked.html extra_class='full-width-inside-grid' message='<span class="normal-text white-text">Too often, technology gets in the way of delivering help to the public in times of need. <b>We anchor projects to outcomes to ensure technology works for the people who need it.</b></span>' button_text='Contact us' %}
+{% include contact-button-stacked.html message='<span class="normal-text white-text">Too often, technology gets in the way of delivering help to the public in times of need. <b>We anchor projects to outcomes to ensure technology works for the people who need it.</b></span>' button_text='Contact us' %}
 
 <section class="grid-container padding-top-5" markdown="1">
 
@@ -109,7 +109,7 @@ Our team of designers, developers, and acquisition specialists are federal emplo
   </section>
 </section>
 
-{% include contact-button-stacked.html extra_class='full-width-inside-grid' message='<b class="white-text">Can we help your program? Let’s talk.</b>' button_text='Contact us' %}
+{% include contact-button-stacked.html message='<b class="white-text">Can we help your program? Let’s talk.</b>' button_text='Contact us' %}
 
 <section class="grid-container">
 {% include quote.html text='We’ve leveraged human-centered design and research to take a product from concept to reality – and now we’ve shipped, tested, and are continuing to refine the electronic Advanced Planning Document (eAPD) to meet user needs and deliver value early and often.' person='Jerome Lee, Centers for Medicare and Medicaid Services' logo="Center for Medicaid and Medicare Services" %}
