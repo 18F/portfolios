@@ -6,7 +6,10 @@ layout: hs-apis-page
 portfolio: Human Services
 featured: false
 include_subnav: true
+subnav_title: Eligibility APIs
 subnav_items:
+  - text: Home
+    permalink: /projects/hs-apis/
   - text: Procurement resources for agencies
     permalink: /projects/hs-apis-buy/
   - text: Reusable SNAP API and calculator
@@ -27,15 +30,15 @@ Systems can be connected together in different ways: through Application Program
 
 **Systems that are designed to communicate with each other can do things that siloed systems can’t**:
 
-* Centers for Medicare & Medicaid Services (CMS) has used APIs to help beneficiaries, health care providers, and researchers coordinate care and securely share important patient information.
-* The Veteran’s Administration (VA)’s API platform allows veterans to easily view their VA health records together with all their other health care records inside the iPhone Health app or on their Android devices.
+* Centers for Medicare & Medicaid Services (CMS) has used [APIs](https://developer.cms.gov/) to help beneficiaries, health care providers, and researchers coordinate care and [securely share important patient information](https://www.medicaid.gov/federal-policy-guidance/downloads/sho20003.pdf).
+* The Veteran’s Administration (VA)’s [API platform](https://developer.va.gov/) allows veterans to [easily view their VA health records together with all their other health care records](https://www.va.gov/opa/pressrel/pressrelease.cfm?id=5430) inside the iPhone Health app or on their Android devices.
 
 **The human services eligibility space faces several challenges that could be productively addressed by systems that are designed to communicate with each other**:
 * Applicants are often eligible for more than one benefit, and interact with more than one system.
 * Programs often have overlapping, or similar eligibility criteria to each other.
 * Policies change continuously—and sometimes unpredictably—with grave consequences to programs and beneficiaries if systems fall out of sync with the law.
 
-**Designing systems to communicate with each other (an “API-driven” approach) could mean that**:
+**Designing systems to communicate with each other (an "API-driven" approach) could mean that**:
 * an updated policy can propagate through multiple systems without each of those systems needing to individually code it themselves;
 agencies can update individual pieces of their system without having to modify the entire system;
 * different systems can share information instead of requiring beneficiaries or program staff to enter the same information multiple times;
@@ -45,8 +48,7 @@ agencies can update individual pieces of their system without having to modify t
 
 We conducted research with government agencies, created sample procurement language, and built prototype software to help agencies explore these opportunities. See below for resources that will help your agency put these techniques into practice:
 
-+ [Why should your federal human services agency invest in an eligibility services approach?]()
-+ [How can your agency buy flexible, reusable technology that’s easier and faster to update?]()
-+ [How could your agency or organization avoid writing and rewriting eligibility rules for the SNAP program?]()
++ [How can your agency buy flexible, reusable technology that’s easier and faster to update?](/site/projects/hs-apis-buy/)
++ [How could your agency or organization avoid writing and rewriting eligibility rules for the SNAP program?](/site/projects/hs-apis-calc/)
 
-Have feedback, suggestions, or questions about how to implement these ideas? Get in touch at eligibility-apis-initiative@gsa.gov.
+Have feedback, suggestions, or questions about how to implement these ideas? Get in touch at [eligibility-apis-initiative@gsa.gov](mailto:eligibility-apis-initiative@gsa.gov).

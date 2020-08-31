@@ -6,10 +6,12 @@ layout: hs-apis-page
 portfolio: Human Services
 featured: false
 include_subnav: true
-subnav_title:
+subnav_title: Eligibility APIs
 subnav_items:
-  - text: Eligibility APIs Initiative
+  - text: Home
     permalink: /projects/hs-apis/
+  - text: Procurement resources for agencies
+    permalink: /projects/hs-apis-buy/
   - text: Reusable SNAP API and calculator
     permalink: /projects/hs-apis-calc/
 ---
@@ -24,6 +26,7 @@ Consider embedding API-oriented criteria like these into every phase of the proc
 
 ### Sample Requirement
 
+<div class="background-gray pad-top-bottom pad-right-left" markdown="1">
 The System must:
 
 + Incorporate an application programming interface (API) strategy to promote system flexibility and interoperability.
@@ -33,6 +36,7 @@ The System must:
         + Initial users of public or private APIs
         + Potential future users of public or private APIs
     + The API strategy should be iterative and updated based on changing requirements and user needs.
+</div>
 
 ### Sample Quality Assessment Surveillance Plan (QASP) element
 
@@ -40,7 +44,7 @@ The System must:
 | ----------- | ------------------------|--------------------------|----------------------|
 | API-driven  | Any public or private APIs developed as part of the project will be well-documented and semantically versioned. | All API endpoints, parameters, defaults, and outputs documented and updated at the end of every applicable sprint. Semantic versioning will be kept up to date at the end of every applicable sprint. | All API endpoints, parameters, defaults, and outputs documented and updated at the end of every applicable sprint. |
 
-Download the Sample System Requirement and Sample QASP element as a [Microsoft Word Document]().
+Download the Sample System Requirement and Sample QASP element as a [Microsoft Word Document](TODO).
 These sample elements are starting points for requiring API-driven development. Depending on the nature and needs of the project, additional QASP elements could include:
 
 + API usability testing with developers
@@ -49,6 +53,6 @@ These sample elements are starting points for requiring API-driven development. 
 
 ### Additional resources
 
-For more information on procurement approaches that reduce risk, see "De-risking custom technology projects," (PDF download) from 18F and 10x.
+For more information on procurement approaches that reduce risk, see "[De-risking custom technology projects](https://raw.githubusercontent.com/18F/technology-budgeting/master/handbook.pdf)," (PDF download) from 18F and 10x.
 
-If you could use additional assistance with technology procurement from the 18F Acquisitions team, get in touch at inquiries18f@gsa.gov.
+If you could use additional assistance with technology procurement from the 18F Acquisitions team, get in touch at [inquiries18f@gsa.gov](mailto:inquiries18f@gsa.gov).
