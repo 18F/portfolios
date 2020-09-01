@@ -16,6 +16,8 @@ subnav_items:
     permalink: /projects/hs-apis-calc/
 ---
 
+![Demo of a SNAP benefit calculator]({{site.baseurl}}/assets/img/portfolios/human-services/hs-apis/demo-snap-calc-screenrecording.gif)
+
 ## Reuse or extend the SNAP benefit calculator
 
 Interested in adding this SNAP benefit calculator to your own organization’s website?
