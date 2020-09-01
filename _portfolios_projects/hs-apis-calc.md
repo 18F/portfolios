@@ -5,6 +5,7 @@ permalink: /projects/hs-apis-calc/
 layout: hs-apis-page
 portfolio: Human Services
 featured: false
+subtitle: Demo SNAP Calculator
 subnav_title: Eligibility APIs
 subnav_items:
   - text: Home

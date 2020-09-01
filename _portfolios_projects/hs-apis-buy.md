@@ -6,6 +6,7 @@ layout: hs-apis-page
 portfolio: Human Services
 featured: false
 include_subnav: true
+subtitle: Resources For Agencies
 subnav_title: Eligibility APIs
 subnav_items:
   - text: Home

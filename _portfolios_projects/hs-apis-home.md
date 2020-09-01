@@ -6,6 +6,7 @@ layout: hs-apis-page
 portfolio: Human Services
 featured: false
 include_subnav: true
+subtitle: Background
 subnav_title: Eligibility APIs
 subnav_items:
   - text: Home
@@ -22,7 +23,7 @@ Human services agencies need to continually update their benefits systems when p
 
 It is also duplicative. Agencies often need similar functionality or updates—such as when a new federal law must be implemented across all states and territories. But agency systems are typically unique and separated from others. Updated policy or functionality in one system rarely propagates to other systems.
 
-<div class="small-caps small-caps-no-margin">Value proposition</div>
+<div class="small-caps">Value proposition</div>
 
 The true value of a digital system extends beyond what it can do by itself. The connections it makes to other systems are also incredibly valuable. Connected systems can share policy, information, and code and can present a more coherent and streamlined experience to the public.
 
