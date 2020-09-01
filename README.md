@@ -1,11 +1,15 @@
-[![CircleCI](https://circleci.com/gh/18F/18f.gsa.gov.svg?style=shield)](https://circleci.com/gh/18F/18f.gsa.gov)
-[![Known Vulnerabilities](https://snyk.io/test/github/18F/18f.gsa.gov/badge.svg)](https://snyk.io/test/github/18F/18f.gsa.gov)
+[![CircleCI](https://circleci.com/gh/18F/portfolios.svg?style=shield)](https://circleci.com/gh/18F/portfolios)
+[![Known Vulnerabilities](https://snyk.io/test/github/18F/portfolios/badge.svg)](https://snyk.io/test/github/18F/portfolios)
 [![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
 
 
-# 18F’s flagship website
+# 18F portfolios microsite
 
-This repository houses the 18F website. We use the [U.S. Web Design System](https://designsystem.digital.gov/) for the front end interface. The site is built and served through [the Federalist platform](https://federalist.18f.gov/).
+This repository houses a microsite about 18F's portfolios. We use the [U.S. Web Design System](https://designsystem.digital.gov/) for the front end interface. The site is built and served through [the Federalist platform](https://federalist.18f.gov/).
+
+## What is happening in here?
+
+To make it easier to eventually merge this microsite with the main 18F website, we're trying to maintain this repo as, effectively, a fork of the 18F repository. This means that
 
 ### Style and style guide
 
@@ -13,24 +17,21 @@ This repository houses the 18F website. We use the [U.S. Web Design System](http
 
 [View style guide](https://18f.gsa.gov/styleguide/)
 
-### History
-
-A detailed history of the past work that went into developing this redesign can be found at [18F/beta.18f.gov](https://github.com/18F/beta.18f.gov).
-
 ## Installation and Deployment
 
 __*Note:*__ _The Federalist platform does not support the use of a predefined `SHOME` environment variable which impacts the installation of the site's testing dependency [`pry`](https://github.com/pry/pry) (See the [issue](https://github.com/pry/pry/issues/2139)).  In order to build the Federalist deployment and keep the tests working in CI, a Federalist specific gemfile ([`GemfileFederalist`](./GemfileFederalist)) was created to exclude the testing and development groups during install. The Federalist script in the `package.json` is run during the build time a creates a bundler config to install the `GemfileFederalist` dependencies and not the default `Gemfile`.  Any updates to the production builds `Gemfile` should be included in the `GemfileFederalist` until a better fix is in place for the `pry` dependency or the Federalist platform._
 
 Run each of the following steps to get the site up and running.
 
-1. `git clone git@github.com:18F/18f.gsa.gov`
-2. `cd 18f.gsa.gov`
+1. `git clone git@github.com:18F/portfolios`
+2. `cd portfolios`
 3. `bundle install`
 4. `./serve`
 
 To dramatically reduce the build time, there are two commands that you can run instead of `./serve`:
 
-* `./serve-fast`: This will eliminate all of the blog posts and the search index, but generates all other pages
+* `./serve-portfolios`: This will eliminate all content except for portfolio-specific pages.
+* `./serve-fast`: This will eliminate all of the blog posts and the search index, but generates all other pages.
 * `./serve-blog`: This will eliminate all but the latest three blog posts, but keeps the rest of the site intact.
 
 You should be able to see the site at: http://127.0.0.1:4000/site/
@@ -59,4 +60,4 @@ The site is a static website with HTML, CSS, and Javascript. Deployments are don
 1. Federalist runs in its own organization and space in [cloud.gov](https://cloud.gov/), which piggybacks on [AWS GovCloud](https://aws.amazon.com/govcloud-us/).
 1. Federalist Admin: https://federalist.18f.gov/.
 1. Federalist responds to a webhook on GitHub and runs Jekyll to generate static web files and puts them in an S3 bucket.
-1. We map 18f.gsa.gov URL to the S3 bucket.
+1. We map portfolios.18f.gov URL to the S3 bucket.

@@ -1,6 +1,8 @@
 # Site settings
-title: "18F: Digital service delivery"
-description: "18F builds effective, user-centric digital services focused on the interaction between government and the people and businesses it serves."
+url: "https://portfolios.18f.gov" # the base hostname & protocol for your sites
+title: "18F Portfolios: Digital service delivery"
+description: "As 18F teams continue to work with agencies that share a common mission or face similar challenges, our staff have begun to acquire expertise that can be used to address common problems in these domain areas."
+github_repo: https://github.com/18F/portfolios/blob/release
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
 url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
@@ -8,17 +10,16 @@ localhost: "localhost:4000"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
 tag_dir: tags
-github_repo: https://github.com/18F/18f.gsa.gov/blob/master
 
 related_posts: 3
 
-
 analytics:
   google:
-    code: 'UA-48605964-1' # Change this to your GSA analytics code
+    code: 'UA-48605964-19' # Microsites at 18F/GSA analytics code
   dap:
     agency: GSA    # Change this to your agency
     subagency: 18F # Change this to your agency
+
 
 # blog archive at /blog
 paginate: 5
@@ -62,6 +63,12 @@ collections:
   styleguide:
     output: true
     permalink: /styleguide/:path/
+  portfolios:
+    output: true
+    permalink: /portfolios/:path/
+  portfolios_projects:
+    output: true
+    permalink: /portfolios/:path/
 
 defaults:
  -
@@ -133,6 +140,16 @@ defaults:
   values:
     layout: styleguide
     include_subnav: true
+ -
+   scope:
+     path: "_portfolios"
+   values:
+     layout: portfolio
+ -
+   scope:
+     path: "_portfolios_projects"
+   values:
+     layout: portfolio-project-page
 
 frontmatter_tests:
   path: "tests/schema"
@@ -168,6 +185,7 @@ exclude:
 - Dockerfile
 - examples/
 - favicon.ico
+- feed*
 - Gemfile*
 - ISSUE_TEMPLATE.md
 - killport
@@ -183,6 +201,13 @@ exclude:
 - tests/schema/tags.yml
 - tmp/
 - vendor
+- _posts/
+- _about/
+- _authors/
+- _join/
+- _products_projects/
+- _services_projects/
+- _styleguide
 
 # jekyll plugins
 plugins:
