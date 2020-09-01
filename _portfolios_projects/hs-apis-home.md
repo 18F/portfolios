@@ -12,7 +12,7 @@ subnav_items:
     permalink: /projects/hs-apis/
   - text: Procurement resources for agencies
     permalink: /projects/hs-apis-buy/
-  - text: Reusable SNAP API and calculator
+  - text: Reusable SNAP API prototype and calculator
     permalink: /projects/hs-apis-calc/
 ---
 
@@ -48,7 +48,7 @@ agencies can update individual pieces of their system without having to modify t
 
 We conducted research with government agencies, created sample procurement language, and built prototype software to help agencies explore these opportunities. See below for resources that will help your agency put these techniques into practice:
 
-+ [How can your agency buy flexible, reusable technology that’s easier and faster to update?](/site/projects/hs-apis-buy/)
-+ [How could your agency or organization avoid writing and rewriting eligibility rules for the SNAP program?](/site/projects/hs-apis-calc/)
++ [Procurement resources for agencies](/site/projects/hs-apis-buy/)
++ [Reusable SNAP API prototype and calculator](/site/projects/hs-apis-calc/)
 
 Have feedback, suggestions, or questions about how to implement these ideas? Get in touch at [eligibility-apis-initiative@gsa.gov](mailto:eligibility-apis-initiative@gsa.gov).

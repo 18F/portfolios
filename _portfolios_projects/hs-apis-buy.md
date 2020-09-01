@@ -12,7 +12,7 @@ subnav_items:
     permalink: /projects/hs-apis/
   - text: Procurement resources for agencies
     permalink: /projects/hs-apis-buy/
-  - text: Reusable SNAP API and calculator
+  - text: Reusable SNAP API prototype and calculator
     permalink: /projects/hs-apis-calc/
 ---
 
