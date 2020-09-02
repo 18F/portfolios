@@ -17,7 +17,13 @@ subnav_items:
     permalink: /projects/hs-apis-calc/
 ---
 
+
 ## Human services software that’s faster, cheaper, and more secure to update
+
+<div class="testimonial-blockquote" hidden>
+“When federal policy changes, we say, “oh my god, we’ve got to reprogram.” We go back to the vendors and have to put in a change order. It’s a terribly inefficient process.”
+— A state technology leader interviewed by the Eligibility APIs Initiative
+</div>
 
 Human services agencies need to continually update their benefits systems when policy changes, new risks emerge, or new needs arise. This is risky, time-consuming, expensive work.
 
@@ -27,7 +33,9 @@ It is also duplicative. Agencies often need similar functionality or updates—s
 
 The true value of a digital system extends beyond what it can do by itself. The connections it makes to other systems are also incredibly valuable. Connected systems can share policy, information, and code and can present a more coherent and streamlined experience to the public.
 
-Systems can be connected together in different ways: through Application Programming Interfaces (APIs), through shared software libraries, or by publishing eligibility rules as open-source computer code. (Learn more about these terms and approaches.)
+Systems can be connected together in different ways: through Application Programming Interfaces (APIs), through shared software libraries, or by publishing eligibility rules as open-source computer code.
+
+<!--- TODO: Add this section + link (Learn more about these terms and approaches.) -->
 
 **Systems that are designed to communicate with each other can do things that siloed systems can’t**:
 
@@ -49,7 +57,7 @@ agencies can update individual pieces of their system without having to modify t
 
 We conducted research with government agencies, created sample procurement language, and built prototype software to help agencies explore these opportunities. See below for resources that will help your agency put these techniques into practice:
 
-+ [Procurement resources for agencies](/site/projects/hs-apis-buy/)
-+ [Reusable SNAP API prototype and calculator](/site/projects/hs-apis-calc/)
++ [Procurement resources for agencies]({{site.baseurl}}/projects/hs-apis-buy/)
++ [Reusable SNAP API prototype and calculator]({{site.baseurl}}/projects/hs-apis-calc/)
 
 Have feedback, suggestions, or questions about how to implement these ideas? Get in touch at [eligibility-apis-initiative@gsa.gov](mailto:eligibility-apis-initiative@gsa.gov).
