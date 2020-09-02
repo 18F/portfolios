@@ -20,7 +20,7 @@ subnav_items:
 
 ## Reuse or extend the SNAP benefit calculator
 
-Interested in adding this SNAP benefit calculator to your own organization’s website?
+Interested in adding a version of [this SNAP benefit calculator](https://federalist-1c734efa-8e7a-40ed-9b1e-432001a347e9.app.cloud.gov/site/18f/snap-js-prescreener-prototypes/prescreeners/va.html) to your own organization’s website?
 
 A benefit calculator like this one can help someone decide if it is worth their time and energy to submit a full application. It can give them an understanding of their likely eligibility and their estimated benefit amount. Note that this benefit calculator provides estimates only, and is not the same as an official determination.
 
