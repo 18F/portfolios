@@ -21,7 +21,7 @@ subnav_items:
 
 If your goal is more flexible systems that are easier to update, consider embedding API-driven development into your procurement language.
 
-We created Sample System Requirements and a sample Quality Assessment Surveillance Plan (QASP) element, with an eye towards moving vendor teams towards flexible and reusable software development.
+These Sample System Requirements and sample Quality Assessment Surveillance Plan (QASP) elements may help you guide vendor teams towards flexible and reusable software development.
 
 Consider embedding API-oriented criteria like these into every phase of the process, from the initial RFP, to evaluation and eventual post-award surveillance.
 
