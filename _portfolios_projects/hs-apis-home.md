@@ -48,10 +48,10 @@ Systems can be connected together in different ways: through Application Program
 * Policies change continuously—and sometimes unpredictably—with grave consequences to programs and beneficiaries if systems fall out of sync with the law.
 
 **Designing systems to communicate with each other (an "API-driven" approach) could mean that**:
-* an updated policy can propagate through multiple systems without each of those systems needing to individually code it themselves;
+* An updated policy can propagate through multiple systems without each of those systems needing to individually code it themselves;
 agencies can update individual pieces of their system without having to modify the entire system;
-* different systems can share information instead of requiring beneficiaries or program staff to enter the same information multiple times;
-* agencies with similar informational or functional needs can pool their resources to build and maintain shared tools instead of each building their own unique, incompatible solutions.
+* Different systems can share information instead of requiring beneficiaries or program staff to enter the same information multiple times;
+* Agencies with similar informational or functional needs can pool their resources to build and maintain shared tools instead of each building their own unique, incompatible solutions.
 
 ## What you can do next to get started
 
