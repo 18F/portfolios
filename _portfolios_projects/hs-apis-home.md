@@ -17,11 +17,11 @@ subnav_items:
     permalink: /projects/hs-apis-calc/
 ---
 
-
 ## Human services software that’s faster, cheaper, and more secure to update
 
-<div class="testimonial-blockquote" hidden>
+<div class="testimonial-blockquote" markdown="1" hidden>
 “When federal policy changes, we say, “oh my god, we’ve got to reprogram.” We go back to the vendors and have to put in a change order. It’s a terribly inefficient process.”
+
 — A state technology leader interviewed by the Eligibility APIs Initiative
 </div>
 
@@ -52,6 +52,14 @@ Systems can be connected together in different ways: through Application Program
 agencies can update individual pieces of their system without having to modify the entire system;
 * Different systems can share information instead of requiring beneficiaries or program staff to enter the same information multiple times;
 * Agencies with similar informational or functional needs can pool their resources to build and maintain shared tools instead of each building their own unique, incompatible solutions.
+
+**Benefits to agencies**:
+
+| | Status Quo | Using Eligibility Services |
+|--| ----------- | ------------------------|
+| **Time to respond** | When federal policy changes, updates are carried out using change orders, which can be slow and expensive. | Could cut out the need for change orders by allowing systems to consume new rules directly. |
+| **Accuracy** | State agencies do their best to interpret federal rules. | Federal agencies could publish its rules directly as code, removing the need for states to interpret or proxy their rules. |
+| **Security** | States carry sensitive data and documents to verify eligibility. | An affirmative eligibility response from a federal agency could serve the same function. |
 
 ## What you can do next to get started
 
