@@ -19,7 +19,7 @@ subnav_items:
 
 ## Human services software that’s faster, cheaper, and more secure to update
 
-<div class="testimonial-blockquote" markdown="1" hidden>
+<div class="testimonial-blockquote" markdown="1">
 “When federal policy changes, we say, “oh my god, we’ve got to reprogram.” We go back to the vendors and have to put in a change order. It’s a terribly inefficient process.”
 
 — A state technology leader interviewed by the Eligibility APIs Initiative
