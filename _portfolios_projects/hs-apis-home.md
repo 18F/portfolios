@@ -57,9 +57,9 @@ agencies can update individual pieces of their system without having to modify t
 
 | | Status Quo | Using Eligibility Services |
 |--| ----------- | ------------------------|
-| **Time to respond** | When federal policy changes, updates are carried out using change orders, which can be slow and expensive. | Could cut out the need for change orders by allowing systems to consume new rules directly. |
-| **Accuracy** | State agencies do their best to interpret federal rules. | Federal agencies could publish its rules directly as code, removing the need for states to interpret or proxy their rules. |
-| **Security** | States carry sensitive data and documents to verify eligibility. | An affirmative eligibility response from a federal agency could serve the same function. |
+| **Time to respond** | When federal policy changes, updates are carried out using change orders, which can be slow and expensive. | Could allow systems to consume new rules directly, removing the need for change orders. |
+| **Accuracy** | State agencies do their best to interpret federal rules. | Federal agencies could publish rules directly as code, removing the need for states to interpret their rules. |
+| **Security** | States carry sensitive data and documents to verify eligibility. | An eligibility response from a federal agency could serve the same function, removing the need to carry sensitive data or documents. |
 
 ## What you can do next to get started
 
