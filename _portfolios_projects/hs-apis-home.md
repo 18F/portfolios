@@ -35,8 +35,6 @@ The true value of a digital system extends beyond what it can do by itself. The 
 
 Systems can be connected together in different ways: through Application Programming Interfaces (APIs), through shared software libraries, or by publishing eligibility rules as open-source computer code.
 
-<!--- TODO: Add this section + link (Learn more about these terms and approaches.) -->
-
 **Systems that are designed to communicate with each other can do things that siloed systems can’t**:
 
 * Centers for Medicare & Medicaid Services (CMS) has used [APIs](https://developer.cms.gov/) to help beneficiaries, health care providers, and researchers coordinate care and [securely share important patient information](https://www.medicaid.gov/federal-policy-guidance/downloads/sho20003.pdf).
