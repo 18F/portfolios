@@ -17,7 +17,13 @@ a.usa-button.usa-button-secondary {
 
 img.home-cta-icon {
   width: 8rem;
-  margin-bottom: 3rem;
+  margin: 0 3rem 1rem 0;
+}
+
+@media screen and (max-width: 599px) {
+  .section-cta p {
+    line-height: unset;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -41,6 +47,7 @@ img.home-cta-icon {
 
   .usa-width-one-fourth > img.home-cta-icon {
     margin-bottom: 3rem;
+    float: left;
   }
 }
 
