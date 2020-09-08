@@ -111,4 +111,4 @@ Break up large procurements into pieces that can be delivered incrementally to e
   </section>
 </section>
 
-{% include contact-button-stacked.html extra_class='full-width-inside-grid' message='<b class="white-text">Can we help your mission? Let’s talk.</b>' button_text='Contact us' %}
+{% include contact-button-stacked.html message='<b class="white-text">Can we help your mission? Let’s talk.</b>' button_text='Contact us' %}
