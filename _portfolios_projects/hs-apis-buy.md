@@ -45,7 +45,8 @@ The System must:
 | ----------- | ------------------------|--------------------------|----------------------|
 | API-driven  | Any public or private APIs developed as part of the project will be well-documented and semantically versioned. | All API endpoints, parameters, defaults, and outputs documented and updated at the end of every applicable sprint. Semantic versioning will be kept up to date at the end of every applicable sprint. | All API endpoints, parameters, defaults, and outputs documented and updated at the end of every applicable sprint. |
 
-Download the Sample System Requirement and Sample QASP element as a [Microsoft Word Document](TODO).
+Download the Sample System Requirement and Sample QASP element as a [Microsoft Word Document]({{site.baseurl}}/assets/presentations/HS-APIs-Sample-System-Requirements-and-QASP.docx).
+
 These sample elements are starting points for requiring API-driven development. Depending on the nature and needs of the project, additional QASP elements could include:
 
 + API usability testing with developers
