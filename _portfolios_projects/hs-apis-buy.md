@@ -5,16 +5,14 @@ permalink: /projects/hs-apis-buy/
 layout: hs-apis-page
 portfolio: Human Services
 featured: false
-include_subnav: true
 subtitle: Resources For Agencies
-subnav_title: Eligibility APIs
-subnav_items:
+links:
   - text: Home
-    permalink: /projects/hs-apis/
+    href: /projects/hs-apis/
   - text: Procurement resources for agencies
-    permalink: /projects/hs-apis-buy/
+    href: /projects/hs-apis-buy/
   - text: Reusable SNAP API prototype and calculator
-    permalink: /projects/hs-apis-calc/
+    href: /projects/hs-apis-calc/
 ---
 
 ## Build flexibility and reuse into your procurement language

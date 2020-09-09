@@ -6,14 +6,13 @@ layout: hs-apis-page
 portfolio: Human Services
 featured: false
 subtitle: Demo SNAP Calculator
-subnav_title: Eligibility APIs
-subnav_items:
+links:
   - text: Home
-    permalink: /projects/hs-apis/
+    href: /projects/hs-apis/
   - text: Procurement resources for agencies
-    permalink: /projects/hs-apis-buy/
+    href: /projects/hs-apis-buy/
   - text: Reusable SNAP API prototype and calculator
-    permalink: /projects/hs-apis-calc/
+    href: /projects/hs-apis-calc/
 ---
 
 ![Demo of a SNAP benefit calculator]({{site.baseurl}}/assets/img/portfolios/human-services/hs-apis/demo-snap-calc-screenrecording.gif)
