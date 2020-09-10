@@ -17,7 +17,7 @@ links:
 
 ## Build flexibility and reuse into your procurement language
 
-If your goal is more flexible systems that are easier to update, consider embedding API-driven development into your procurement language.
+If your program would benefit from **systems that are more flexible and easier to update**, consider embedding API-driven development into your procurement language.
 
 These Sample System Requirements and sample Quality Assessment Surveillance Plan (QASP) elements may help you guide vendor teams towards flexible and reusable software development.
 
