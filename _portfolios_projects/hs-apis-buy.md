@@ -1,18 +1,18 @@
 ---
 agency: 10x
 title: Procurement resources for agencies
-permalink: /projects/hs-apis-buy/
+permalink: /projects/eligibility-apis/procurement-resources/
 layout: hs-apis-page
 portfolio: Human Services
 featured: false
 subtitle: Procurement resources for agencies
 links:
   - text: Background
-    href: /projects/hs-apis/
+    href: /projects/eligibility-apis/
   - text: Procurement resources for agencies
-    href: /projects/hs-apis-buy/
+    href: /projects/eligibility-apis/procurement-resources/
   - text: Reusable SNAP API prototype and calculator
-    href: /projects/hs-apis-calc/
+    href: /projects/eligibility-apis/reusable-snap-api/
 ---
 
 ## Build flexibility and reuse into your procurement language
@@ -53,6 +53,6 @@ These sample elements are starting points for requiring API-driven development. 
 
 ### Additional resources
 
-For more information on procurement approaches that reduce risk, see "[De-risking custom technology projects](https://raw.githubusercontent.com/18F/technology-budgeting/master/handbook.pdf)," (PDF download) from 18F and 10x.
+For more information on procurement approaches that reduce risk, see the [De-risking Government Technology Field Guide](https://derisking-guide.18f.gov/) from 18F.
 
 If you could use additional assistance with technology procurement from the 18F Acquisitions team, get in touch at [inquiries18f@gsa.gov](mailto:inquiries18f@gsa.gov).

@@ -1,18 +1,18 @@
 ---
 agency: 10x
 title: Eligibility APIs Initiative
-permalink: /projects/hs-apis/
+permalink: /projects/eligibility-apis/
 layout: hs-apis-page
 portfolio: Human Services
 featured: false
 subtitle: Background
 links:
   - text: Background
-    href: /projects/hs-apis/
+    href: /projects/eligibility-apis/
   - text: Procurement resources for agencies
-    href: /projects/hs-apis-buy/
+    href: /projects/eligibility-apis/procurement-resources/
   - text: Reusable SNAP API prototype and calculator
-    href: /projects/hs-apis-calc/
+    href: /projects/eligibility-apis/reusable-snap-api/
 ---
 
 ## Human services software that’s faster, cheaper, and more secure to update
@@ -29,7 +29,9 @@ It is also duplicative. Agencies often need similar functionality or updates—s
 
 <div class="small-caps">Value proposition</div>
 
-The true value of a digital system extends beyond what it can do by itself. The connections it makes to other systems are also incredibly valuable. Connected systems can share policy, information, and code and can present a more coherent and streamlined experience to the public.
+## The true value of a digital system extends beyond what it can do by itself
+
+The connections it makes to other systems are also incredibly valuable. Connected systems can share policy, information, and code and can present a more coherent and streamlined experience to the public.
 
 Systems can be connected together in different ways: through Application Programming Interfaces (APIs), through shared software libraries, or by publishing eligibility rules as open-source computer code.
 

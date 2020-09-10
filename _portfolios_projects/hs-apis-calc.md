@@ -1,23 +1,23 @@
 ---
 agency: 10x
 title: Reusable SNAP API and calculator
-permalink: /projects/hs-apis-calc/
+permalink: /projects/eligibility-apis/reusable-snap-api/
 layout: hs-apis-page
 portfolio: Human Services
 featured: false
 subtitle: Reusable SNAP API prototype and calculator
 links:
   - text: Background
-    href: /projects/hs-apis/
+    href: /projects/eligibility-apis/
   - text: Procurement resources for agencies
-    href: /projects/hs-apis-buy/
+    href: /projects/eligibility-apis/procurement-resources/
   - text: Reusable SNAP API prototype and calculator
-    href: /projects/hs-apis-calc/
+    href: /projects/eligibility-apis/reusable-snap-api/
 ---
 
-![Demo of a SNAP benefit calculator]({{site.baseurl}}/assets/img/portfolios/human-services/hs-apis/demo-snap-calc-screenrecording.gif)
-
 ## Reuse or extend the SNAP benefit calculator
+
+![Demo of a SNAP benefit calculator]({{site.baseurl}}/assets/img/portfolios/human-services/hs-apis/demo-snap-calc-screenrecording.gif)
 
 Interested in adding a version of [this SNAP benefit calculator](https://federalist-1c734efa-8e7a-40ed-9b1e-432001a347e9.app.cloud.gov/site/18f/snap-js-prescreener-prototypes/prescreeners/va.html) to your own organization’s website?
 
