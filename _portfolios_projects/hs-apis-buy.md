@@ -5,9 +5,9 @@ permalink: /projects/hs-apis-buy/
 layout: hs-apis-page
 portfolio: Human Services
 featured: false
-subtitle: Resources For Agencies
+subtitle: Procurement resources for agencies
 links:
-  - text: Home
+  - text: Background
     href: /projects/hs-apis/
   - text: Procurement resources for agencies
     href: /projects/hs-apis-buy/
