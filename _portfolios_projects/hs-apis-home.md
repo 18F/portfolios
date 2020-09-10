@@ -51,11 +51,11 @@ agencies can update individual pieces of their system without having to modify t
 
 **Benefits to agencies**:
 
-| | Status Quo | Using Eligibility Services |
+| | Status Quo  | Using Eligibility Services  |
 |--| ----------- | ------------------------|
-| **Time to respond** | When federal policy changes, updates are carried out using change orders, which can be slow and expensive. | Could allow systems to consume new rules directly, removing the need for change orders. |
-| **Accuracy** | State agencies do their best to interpret federal rules. | Federal agencies could publish rules directly as code, removing the need for states to interpret their rules. |
-| **Security** | States carry sensitive data and documents to verify eligibility. | An eligibility response from a federal agency could serve the same function, removing the need to carry sensitive data or documents. |
+| <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> **Policy updates** | When federal policy changes, updates are carried out using change orders, which can be slow and expensive. | Could allow systems to consume new rules directly, removing the need for change orders. |
+| <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg> **Accuracy** | State agencies do their best to interpret federal rules. | Federal agencies could publish rules directly as code, removing the need for states to interpret their rules. |
+| <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> **Security** | States carry sensitive data and documents to verify eligibility. | An eligibility response from a federal agency could serve the same function, removing the need to carry sensitive data or documents. |
 
 ## What you can do next to get started
 
