@@ -17,7 +17,7 @@ links:
 
 ## Reuse or extend the SNAP benefit calculator
 
-![Demo of a SNAP benefit calculator]({{site.baseurl}}/assets/img/portfolios/human-services/hs-apis/demo-snap-calc-screenrecording.gif)
+![Demo of a SNAP benefit calculator]({{site.baseurl}}/assets/img/portfolios/human-services/hs-apis/snappreview.gif)
 
 Interested in adding a version of [this SNAP benefit calculator](https://federalist-1c734efa-8e7a-40ed-9b1e-432001a347e9.app.cloud.gov/site/18f/snap-js-prescreener-prototypes/prescreeners/va.html) to your own organization’s website?
 
