@@ -3,22 +3,22 @@
 }
 
 .pad-bottom-mobile {
-  padding-bottom: $site-margins;
+  padding-bottom: $theme-site-margins-width;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     padding-bottom: initial;
   }
 }
 
-.full-width-inside-grid {
-  width: 100vw;
-  left: calc(-50vw + 50%);
-  position: relative;
-
-  @include media($medium-screen) {
-    left: calc(-50vw + 75%);
-  }
-}
+// .full-width-inside-grid {
+//   width: 100vw;
+//   left: calc(-50vw + 50%);
+//   position: relative;
+//
+//   @include at-media('tablet') {
+//     left: calc(-50vw + 75%);
+//   }
+// }
 
 .image-center {
   clear: both;
@@ -35,20 +35,20 @@ svg {
 }
 
 .margin-spacing {
-  margin-top: $section-margins;
-  margin-bottom: $section-margins;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .pad-top-bottom {
-  padding-top: $paragraph-margins-thick;
-  padding-bottom: $paragraph-margins-thick;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pad-right-left {
   padding-right: 1%;
   padding-left: 1%;
 
-  @include media($medium-screen) {
+  @include at-media('tablet') {
     padding-right: 4%;
     padding-left: 4%;
   }
@@ -56,7 +56,7 @@ svg {
 
 .small-caps {
   @include small-caps;
-  margin-top: $section-margins;
+  margin-top: 5rem;
 }
 
 .small-caps-no-margin {
@@ -65,7 +65,7 @@ svg {
 
 .small-caps + h3,
 .small-caps + h2, {
-  margin-top: $spacer-margins;
+  margin-top: 0.5rem;
 }
 
 .sidebar-heading-border {

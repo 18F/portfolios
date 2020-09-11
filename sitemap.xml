@@ -13,6 +13,17 @@
     {% assign site_url = site.github.url %}
   {% endif %}
 
+  {% for post in site.posts %}{% unless post.sitemap == false %}
+
+  <url>
+    <loc>{{ post.url | prepend: site_url }}</loc>
+    {% if post.last_modified_at %}
+    <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
+    {% else %}
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    {% endif %}
+  </url>
+  {% endunless %}{% endfor %}
   {% for page in site.html_pages %}{% unless page.sitemap == false %}
   <url>
     <loc>{{ page.url | replace:'/index.html','/' | prepend: site_url }}</loc>

@@ -1,0 +1,36 @@
+{% assign card_link = include.link | prepend: site.baseurl %}
+
+{% assign columns = include.columns | default: 3 %}
+
+{% if columns == 2 %}
+  {% assign wds_grid_class = 'tablet:grid-col-6' %}
+{% else %}
+  {% assign wds_grid_class = 'tablet:grid-col-4' %}
+{% endif %}
+
+<article class="card {{ wds_grid_class }} margin-bottom-4">
+  <div>
+    <div role="img"
+         title="{{ include.image_alt }}"
+         class="card-image-bg {% unless include.image_src %} card-image-svg {% endunless %}"
+         {% if include.image_src %}
+         style="background-image: url({{ site.baseurl }}{{ include.image_src }});"{% endif %}>
+      {% unless include.image_src %}
+        {% if include.image_icon %}
+          {% include svg/icons/{{ include.image_icon }} %}
+        {% else %}
+          {% include svg/icons/monitor.svg %}
+        {% endif %}
+      {% endunless %}
+    </div>
+    <div class="card-banner">
+      {% if include.agency %}
+        <p class="card-tag">{{ include.agency }}</p>
+      {% endif %}
+      {% if card_link and include.tagline %}
+        <h3 class="h4">{{ include.tagline }}</h3>
+      {% endif %}
+      <p class="card-description">{{ include.description }}</p>
+    </div>
+  </div>
+</article>

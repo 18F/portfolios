@@ -6,41 +6,27 @@ header_border: true
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
 
-<section class="usa-section background-dark">
-  <div class="usa-grid-full usa-flex">
-    <div class="usa-grid {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero-callout-full hero-callout-no_button">
-      {% if page.name %}
-        <h1 class="h3">
+<section class="background-dark">
+  <div class="grid-container hero-callout-full">
+    {% if page.name %}
+      <h1 class="h3">
         <span class="hero-callout-alt_color">{{ page.name }}</span>
-        </h1>
-      {% endif %}
-      <h1 class="hero-callout-title-secondary">
-        {{ page.heading }}
       </h1>
-      <h2 class="h3">
-        {{ page.subheading }}
-      </h2>
-      <a class="usa-button usa-button-secondary" href="https://18f.gsa.gov/contact/">Work with us</a>
-    </div>
-    <!-- {% if page.image %}
-      <div class="usa-width-one-half hero"
-        style="background-image: url({{ site.baseurl }}{{ page.image }});"
-        role="img"
-        title="{{ page.image_accessibility }}">
-      </div>
-    {% else %}
-      <div class="hero hero-img-collapsed" style="background-image: none">
-      </div>
-    {% endif %} -->
+    {% endif %}
+    <h1 class="hero-callout-title-secondary">
+      {{ page.heading }}
+    </h1>
+    <h2 class="h3">
+      {{ page.subheading }}
+    </h2>
+    <a class="usa-button usa-button-secondary" href="https://18f.gsa.gov/contact/">Work with us</a>
   </div>
 </section>
 
 <section class="portfolio-content">
-  <div class="usa-grid">
-    <section class="usa-section usa-width-two-thirds page-tag-results-content">
-      {{ content }}
-    </section>
-  </div>
+  <section class="usa-section page-tag-results-content">
+    {{ content }}
+  </section>
 </section>
 
 {% if page.show_blog_posts %}

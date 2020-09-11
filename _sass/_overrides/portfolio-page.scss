@@ -1,6 +1,6 @@
-.portfolio-content .wider-than-two-thirds {
-  width: 99vw;
-}
+// .portfolio-content .wider-than-two-thirds {
+//   width: 99vw;
+// }
 
 .portfolio-content .home-testimonial {
   margin-top: 5rem;
@@ -17,7 +17,13 @@ a.usa-button.usa-button-secondary {
 
 img.home-cta-icon {
   width: 8rem;
-  margin-bottom: 3rem;
+  margin: 0 3rem 1rem 0;
+}
+
+@media screen and (max-width: 599px) {
+  .section-cta p {
+    line-height: unset;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -41,15 +47,16 @@ img.home-cta-icon {
 
   .usa-width-one-fourth > img.home-cta-icon {
     margin-bottom: 3rem;
+    float: left;
   }
 }
 
-@media screen and (max-width: 775px) {
-  .site-logo-text {
-    visibility: visible;
-    width: auto;
-  }
-}
+// @media screen and (max-width: 775px) {
+//   .site-logo-text {
+//     visibility: visible;
+//     width: auto;
+//   }
+// }
 
 @media screen and (max-width: 599px) {
   .portfolio-content ul.list-columns li.list-images-item, .portfolio-content li.usa-width-one-third {
@@ -63,7 +70,7 @@ img.home-cta-icon {
   nav.footer-mobile {
     margin: 0 1.5rem;
   }
-  
+
   li.menu-group .h6 {
     padding-top: 2.6rem;
   }
