@@ -19,7 +19,7 @@ image_accessibility: Eligibility APIs Initiative logo, a series of colorful line
 
 ## Reuse or extend the SNAP benefit calculator
 
-![Demo of a SNAP benefit calculator]({{site.baseurl}}/assets/img/portfolios/human-services/hs-apis/snappreview.gif)
+![Demo of a SNAP benefit calculator]({{site.baseurl}}/assets/img/portfolios/human-services/hs-apis/snap-preview.png)
 
 Interested in adding a version of [this SNAP benefit calculator](https://federalist-1c734efa-8e7a-40ed-9b1e-432001a347e9.app.cloud.gov/site/18f/snap-js-prescreener-prototypes/prescreeners/va.html) to your own organization’s website?
 
@@ -44,6 +44,8 @@ The project description says that it requires only HTML, CSS, and Javascript, so
 <a href="https://github.com/18F/snap-js-prescreener-prototypes/wiki/How-to-create-a-new-state-or-territory-calculator
 ">https://github.com/18F/snap-js-prescreener-prototypes/wiki/How-to-create-a-new-state-or-territory-calculator</a>
 </div>
+
+![Icon of a gavel]({{site.baseurl}}/assets/img/portfolios/human-services/hs-apis/rules-as-code.svg)
 
 ## Reuse this approach: federal + state rules as code
 
