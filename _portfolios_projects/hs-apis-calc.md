@@ -45,9 +45,9 @@ The project description says that it requires only HTML, CSS, and Javascript, so
 ">https://github.com/18F/snap-js-prescreener-prototypes/wiki/How-to-create-a-new-state-or-territory-calculator</a>
 </div>
 
-![Icon of a gavel]({{site.baseurl}}/assets/img/portfolios/human-services/hs-apis/rules-as-code.svg)
-
 ## Reuse this approach: federal + state rules as code
+
+![]({{site.baseurl}}/assets/img/portfolios/human-services/hs-apis/rules-as-code.svg)
 
 The benefit calculator is powered by a prototype model of SNAP eligibility rules as code. The model includes core federal rules and can incorporate options for each state or territory, since states have different options within SNAP, such as setting different income limits through [Broad-Based Categorical Eligibility](https://www.fns.usda.gov/snap/broad-based-categorical-eligibility) (BBCE).
 
