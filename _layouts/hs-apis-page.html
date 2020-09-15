@@ -9,17 +9,32 @@ header_border: true
 %}
 
 <section class="page-tag-results">
-  <section class="background-dark usa-section section-intro">
-    <div class="grid-container">
-      <div class="section-intro-header">
-          <h1 class="section-heading section-heading-alt">10x</h1>
-          <h2>Eligibility APIs Initiative</h2>
+
+  <!-- Header, inherited from project-page.html -->
+  <section class="background-dark">
+    <div class="grid-container padding-x-0 usa-flex">
+      <div class="grid-container {% if page.image %}tablet:grid-col-6{% else %}padding-x-0{% endif %} hero-callout-full hero-callout-no_button">
+        <h1 class="hero-callout-title-secondary">
+          {{ page.title }}
+        </h1>
       </div>
+      {% if page.image %}
+        <div class="tablet:grid-col-6 usa-hero hero"
+          style="background-image: url({{ site.baseurl }}{{ page.image }});"
+          role="img"
+          title="{{ page.image_accessibility }}">
+        </div>
+      {% else %}
+        <div class="hero hero-img-collapsed" style="background-image: none">
+        </div>
+      {% endif %}
     </div>
   </section>
 
   <section class="grid-container usa-section content-wide">
     <div class="grid-row grid-gap">
+
+      <!-- Side nav customized for eligibility-apis subsite + a11y considerations -->
       <aside class="tablet:grid-col-4 margin-bottom-2 z-top bg-white sticky">
         <nav aria-label="Secondary navigation">
           <ul class="usa-sidenav">
@@ -45,6 +60,8 @@ header_border: true
           </ul>
         </nav>
       </aside>
+
+      <!-- Page content -->
       <section class="tablet:grid-col-8">
         <div class="small-caps small-caps-no-margin">{{ page.subtitle }}</div>
         {{ content }}

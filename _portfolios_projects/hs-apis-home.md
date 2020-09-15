@@ -13,6 +13,8 @@ links:
     href: /projects/eligibility-apis/procurement-resources/
   - text: Reusable SNAP API prototype and calculator
     href: /projects/eligibility-apis/reusable-snap-api/
+image: /assets/img/portfolios/human-services/hs-apis/10xeligibility@2x.png
+image_accessibility: Eligibility APIs Initiative logo, a series of colorful lines connecting a gavel icon, a courthouse icon, a computer icon and an icon of a happy user.
 ---
 
 ## Human services software that’s faster, cheaper, and more secure to update
