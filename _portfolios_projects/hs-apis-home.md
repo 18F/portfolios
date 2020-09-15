@@ -65,7 +65,7 @@ agencies can update individual pieces of their system without having to modify t
 
 We conducted research with government agencies, created sample procurement language, and built prototype software to help agencies explore these opportunities. See below for resources that will help your agency put these techniques into practice:
 
-+ [Procurement resources for agencies]({{site.baseurl}}/eligibility-apis/procurement-resources/)
-+ [Reusable SNAP API prototype and calculator]({{site.baseurl}}/projects/projects/eligibility-apis/reusable-snap-api/)
++ [Procurement resources for agencies]({{site.baseurl}}/projects/eligibility-apis/procurement-resources/)
++ [Reusable SNAP API prototype and calculator]({{site.baseurl}}/projects/eligibility-apis/reusable-snap-api/)
 
 Have feedback, suggestions, or questions about how to implement these ideas? Get in touch at [eligibility-apis-initiative@gsa.gov](mailto:eligibility-apis-initiative@gsa.gov).
