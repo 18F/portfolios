@@ -3,13 +3,9 @@ name: National Security & Intelligence Portfolio
 heading: Partnering with agencies on product development, assisted acquisitions & portfolio management.
 subheading:
 permalink: /national-security-intelligence/
-tag: 'national security and intelligence'
 
-# NOTE: if adding a new partner, make sure that they exist in _data/agencies.yml
-partners:
 resources:
 learn_more:
-show_blog_posts: false
 
 published: true
 listed: true

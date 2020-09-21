@@ -4,7 +4,6 @@ heading: We partner with agencies to enable human-centered, digitally-assisted p
 subheading:
 #permalink: /portfolios/human-services/
 permalink: /human-services/
-tag: 'health and human services'
 
 # NOTE: if adding a new partner, make sure that they exist in _data/agencies.yml
 partners:
@@ -18,7 +17,6 @@ partners:
 resources:
 - "[https://github.com/18F/human-services](https://github.com/18F/human-services)"
 learn_more:
-show_blog_posts: false
 
 published: true
 listed: true
@@ -95,8 +93,8 @@ Our team of designers, developers, and acquisition specialists are federal emplo
   <section class="grid-container">
     <h2>Examples of our work</h2>
     <div class="grid-row grid-gap">
-    {% include card-portfolio-project.html
-       project='cms-eapd'
+    {% include card-project.html
+       project='hs-apis-home'
     %}
     {% include card-portfolio-project.html
        project='usda-fns'
