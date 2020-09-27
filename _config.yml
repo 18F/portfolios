@@ -20,18 +20,6 @@ analytics:
     agency: GSA    # Change this to your agency
     subagency: 18F # Change this to your agency
 
-
-# blog archive at /blog
-paginate: 5
-paginate_path: "blog/page/:num/"
-
-jekyll-archives:
-  enabled:
-    - 'tags'
-  layout: tag-results
-  permalinks:
-    tag: '/tags/:name/'
-
 collections:
   portfolios:
     output: true
@@ -49,9 +37,6 @@ defaults:
      path: "_portfolios_projects"
    values:
      layout: portfolio-project-page
-
-frontmatter_tests:
-  path: "tests/schema"
 
 footer:
   image: /assets/img/logos/18F-Logo-M.png
@@ -100,22 +85,13 @@ exclude:
 - tests/schema/tags.yml
 - tmp/
 - vendor
-- _posts/
-- _about/
-- _authors/
-- _join/
-- _products_projects/
-- _services_projects/
-- _styleguide
 
 # jekyll plugins
 plugins:
   - jekyll-sitemap
-  - jekyll-archives
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate
   - jekyll_pages_api_search
   - jekyll_oembed
 
