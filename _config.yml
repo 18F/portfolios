@@ -90,7 +90,6 @@ exclude:
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll_pages_api_search
   - jekyll_oembed
