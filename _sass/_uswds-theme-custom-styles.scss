@@ -29,14 +29,16 @@ i.e.
 
 // Import individual theme settings
 
-@import "custom/_theme/uswds-theme-general";
-@import "custom/_theme/uswds-theme-typography";
-@import "custom/_theme/uswds-theme-spacing";
-@import "custom/_theme/uswds-theme-color";
-@import "custom/_theme/uswds-theme-utilities";
+// These are already covered by main.scss
+
+// @import "custom/_theme/uswds-theme-general";
+// @import "custom/_theme/uswds-theme-typography";
+// @import "custom/_theme/uswds-theme-spacing";
+// @import "custom/_theme/uswds-theme-color";
+// @import "custom/_theme/uswds-theme-utilities";
 
 // components import needs to be last
-@import "custom/_theme/uswds-theme-components";
+// @import "custom/_theme/uswds-theme-components";
 
 // USWDS
 // ==========================
