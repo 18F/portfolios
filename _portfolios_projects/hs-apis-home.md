@@ -6,6 +6,7 @@ layout: hs-apis-page
 portfolio: Human Services
 featured: false
 subtitle: Background
+excerpt: Prototyping tools to help agencies smoothly update their benefits systems as needs change.
 links:
   - text: Background
     href: /projects/eligibility-apis/

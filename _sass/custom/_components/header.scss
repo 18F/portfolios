@@ -1,0 +1,124 @@
+// Header
+// ==========================
+header[role=banner] {
+  ul {
+    @include unstyled-list;
+
+    // *TODO*: De-nest this once we fix lists in WDS
+    li {
+      display: inline-block;
+      background: transparent;
+      width: auto;
+
+      a {
+        @include u-padding-y(2.5);
+        @include u-padding-x(2);
+
+        color: color('gray-cool-60');
+        font-weight: $theme-font-weight-bold;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+          background-color: $color-gray-hover;
+          color: color('black');
+        }
+
+        &:active {
+          background-color: color('gray-cool-5');
+        }
+
+        &.usa-current {
+          color: color('black');
+
+          span {
+            border-bottom: $border-accent;
+            padding-bottom: 1.4rem;
+
+            @-moz-document url-prefix() {
+              padding-bottom: 1.3rem; // Current nav link border highlight fix for Firefox
+            }
+
+            @media screen and (-webkit-min-device-pixel-ratio:0) {
+              padding-bottom: 1.45rem; // Current nav link border highlight fix for Safari
+            }
+          }
+        }
+      }
+    }
+  }
+
+  nav[role=navigation] {
+    @include u-margin-y(2);
+    display: none;
+    float: right;
+    font-size: $theme-small-font-size;
+
+    @include at-media('tablet-lg') {
+      display: block;
+    }
+  }
+}
+
+.site-logo {
+  @include u-margin-y(0);
+  display: block;
+  float: left;
+  text-decoration: none;
+
+  img {
+    width: 4.4rem;
+  }
+}
+
+.logo-with-text {
+
+  @include at-media('tablet-lg') {
+    width: 40%;
+  }
+}
+
+.site-logo-text {
+  color: #000000;
+  font-size: 2rem;
+  float: right;
+  padding-top: 0.8rem;
+  visibility: hidden;
+  width: auto;
+
+  @include at-media($theme-header-min-width) {
+    visibility: visible;
+    width: 0;
+  }
+}
+
+// scss-lint:disable PropertyCount
+.menu-btn {
+  @include button-unstyled;
+  background-color: $color-medium;
+  border-radius: units($theme-border-radius-md);
+  color: color('white');
+  display: inline;
+  float: right;
+  font-size: $h6-font-size;
+  line-height: 2rem;
+  height: 3rem;
+  margin-right: 1rem;
+  width: 5.8rem;
+  text-align: center;
+  text-decoration: none;
+
+  @include at-media('desktop') {
+    display: none;
+  }
+
+  &:hover {
+    color: color('white');
+    background-color: $color-dark;
+  }
+
+  &:visited {
+    color: color('white');
+  }
+}
+// scss-lint:enable PropertyCount

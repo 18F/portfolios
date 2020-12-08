@@ -94,13 +94,13 @@ Break up large procurements into pieces that can be delivered incrementally to e
   <section class="grid-container">
     <h2>Examples of our work</h2>
     <div class="grid-row grid-gap">
-    {% include card-portfolio-project.html
+    {% include card-project-nolink.html
        project='geoint'
     %}
-    {% include card-portfolio-project.html
+    {% include card-project-nolink.html
        project='dtmo'
     %}
-    {% include card-portfolio-project.html
+    {% include card-project-nolink.html
        project='afmc'
     %}
     </div>

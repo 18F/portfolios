@@ -50,6 +50,10 @@ footer:
 markdown: kramdown
 highlighter: rouge
 
+# Compress Sass
+sass:
+  style: compressed
+
 exclude:
 - .about.yml
 - .cfignore
