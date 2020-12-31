@@ -114,7 +114,7 @@ header[role=banner] {
 
   &:hover {
     color: color('white');
-    background-color: $color-dark;
+    background-color: color($theme-color-primary-darker);
   }
 
   &:visited {

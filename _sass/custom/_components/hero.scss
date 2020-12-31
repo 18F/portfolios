@@ -79,7 +79,7 @@
   }
 
   &::before {
-    background-color: $color-dark;
+    background-color: color($theme-color-primary-darker);
     content: '';
     display: block;
     height: 100%;

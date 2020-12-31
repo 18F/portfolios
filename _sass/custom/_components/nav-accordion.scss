@@ -58,12 +58,12 @@
       padding-left: ($paragraph-margins * 1.75);
 
       &:hover {
-        color: $color-dark;
+        color: color($theme-color-primary-darker);
       }
 
       &.usa-current {
         border-left: $border-accent;
-        color: $color-dark;
+        color: color($theme-color-primary-darker);
         padding-left: ($paragraph-margins * 1.75) - 1rem;
       }
     }

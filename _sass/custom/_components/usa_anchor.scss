@@ -1,7 +1,7 @@
 // Anchor component - - - - - - - - - - - - - - -
 // Using the USWDS Design Tokens
 .component-anchor {
-  background-color: $theme-color-base-ink;
+  background-color: color($theme-color-primary-darker);
   @include u-text('white');
 
   h3 {

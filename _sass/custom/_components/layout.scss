@@ -133,7 +133,7 @@
 }
 
 .background-dark {
-  background-color: $color-dark;
+  background-color: color($theme-color-primary-darker);
 }
 
 .background-medium,

@@ -149,7 +149,7 @@ button,
   }
 
   &:hover {
-    color: $color-dark;
+    color: color($theme-color-primary-darker);
   }
 }
 
