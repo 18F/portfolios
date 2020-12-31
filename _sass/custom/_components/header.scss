@@ -122,3 +122,7 @@ header[role=banner] {
   }
 }
 // scss-lint:enable PropertyCount
+
+.usa-current {
+  @include add-bar(0.5, "primary-light", "bottom", 0, 2, -0.5);
+}
