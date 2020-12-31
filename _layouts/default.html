@@ -4,7 +4,7 @@
 
   {% include head.html %}
 
-  <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}>
+  <body>
 
     {% unless layout.title == '18F UI Styleguide' %}
       {% include header.html %}

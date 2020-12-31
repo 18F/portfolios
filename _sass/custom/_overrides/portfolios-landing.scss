@@ -3,6 +3,12 @@
   font-size: 2.2rem;
 }
 
+.h3.portfolio-landing {
+  // TODO: use USWDS tags here
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+
 .flex-landing-portfolios {
     display: flex;
     flex-wrap: wrap;
@@ -62,13 +68,5 @@
         width: 100%;
         margin: 0 0 10px 0;
       }
-    }
-  }
-
-
-  @media (max-width: 599px) {
-    .h3.portfolio-landing {
-      font-weight: 400;
-      font-size: 2.4rem;
     }
   }

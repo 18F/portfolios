@@ -51,8 +51,8 @@ markdown: kramdown
 highlighter: rouge
 
 # Compress Sass
-sass:
-  style: compressed
+# sass:
+#   style: compressed
 
 exclude:
 - .about.yml

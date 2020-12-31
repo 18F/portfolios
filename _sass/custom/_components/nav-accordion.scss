@@ -54,7 +54,7 @@
 
       color: color('gray-cool-60');
       font-weight: $theme-font-weight-bold;
-      font-size: $h5-font-size;
+      font-size: $theme-h5-font-size;
       padding-left: ($paragraph-margins * 1.75);
 
       &:hover {

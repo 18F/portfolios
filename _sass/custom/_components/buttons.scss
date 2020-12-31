@@ -129,9 +129,9 @@ button,
 }
 
 .link-rss {
-  @include display-icon(global/rss, after, $h6-font-size);
+  @include display-icon(global/rss, after, $theme-h6-font-size);
   float: right;
-  font-size: $h5-font-size;
+  font-size: $theme-h5-font-size;
 
   &:visited {
     color: $color-bright;
@@ -140,7 +140,7 @@ button,
 
 .back-blog {
   display: inline-block;
-  font-size: $h6-font-size;
+  font-size: $theme-h6-font-size;
   margin-top: $section-margins !important;
 
   @include at-media('tablet-lg') {

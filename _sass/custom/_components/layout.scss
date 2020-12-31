@@ -202,12 +202,12 @@
   }
 
   .section-heading-alt {
-    font-size: $h3-font-size;
+    font-size: $theme-h3-font-size;
   }
 
   h2 {
     display: inline;
-    font-size: $h2-font-size;
+    font-size: $theme-h2-font-size;
     font-weight: $theme-font-weight-bold;
   }
 }
