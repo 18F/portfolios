@@ -1,11 +1,3 @@
-// .portfolio-content .wider-than-two-thirds {
-//   width: 99vw;
-// }
-
-.portfolio-content .home-testimonial {
-  margin-top: 5rem;
-}
-
 a.usa-button.usa-button-secondary {
   box-shadow: unset;
 }
@@ -27,10 +19,6 @@ img.home-cta-icon {
 }
 
 @media screen and (min-width: 600px) {
-  .portfolio-content ul.list-columns {
-    margin-bottom: 2.5rem;
-  }
-
   .portfolio-content ul.list-columns li.list-images-item {
     margin-bottom: 2.5rem;
   }
