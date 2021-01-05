@@ -161,14 +161,14 @@
     margin-bottom: 2rem;
   }
 
-  a
-   {
-    color: $color-bright;
-
-    &:hover {
-      color: $color-bright-hover;
-    }
-  }
+  // a
+  //  {
+  //   color: $color-bright;
+  //
+  //   &:hover {
+  //     color: $color-bright-hover;
+  //   }
+  // }
 
   .usa-search.usa-search-small [type="submit"] {
     background-image: url("../img/global/search-dark.png");
