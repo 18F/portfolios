@@ -1,6 +1,5 @@
 ---
 layout: default
-header_border: true
 ---
 
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
@@ -9,17 +8,17 @@ header_border: true
 <section class="background-dark">
   <div class="grid-container hero-callout-full">
     {% if page.name %}
-      <h1 class="h3">
+      <h1 class="portfolio-callout">
         <span class="hero-callout-alt_color">{{ page.name }}</span>
       </h1>
     {% endif %}
-    <h1 class="hero-callout-title-secondary">
+    <h2 class="hero-callout-title-secondary">
       {{ page.heading }}
-    </h1>
+    </h2>
     <h2 class="h3">
       {{ page.subheading }}
     </h2>
-    <a class="usa-button usa-button-secondary" href="https://18f.gsa.gov/contact/">Work with us</a>
+    <a class="usa-button usa-button--accent-cool" href="https://18f.gsa.gov/contact/">Work with us</a>
   </div>
 </section>
 
@@ -28,32 +27,3 @@ header_border: true
     {{ content }}
   </section>
 </section>
-
-{% if page.show_blog_posts %}
-<section class="page-tag-results">
-  {% if matching_posts.size > 0 %}
-  <div class="background-gray">
-    <div class="usa-section post-border">
-      <section class="usa-grid posts_feature">
-        <div class="{% if matching_posts.size > 3 %}usa-flex usa-flex-pull-right usa-flex-baseline usa-spacer{% endif %}">
-          <h2>Related blog posts</h2>
-          {% if matching_posts.size > 3 %}
-            <a class="link-arrow-right" href="{{ site.baseurl }}/tags/{{ page.tag | slugify }}/">See all posts related to this portfolio{% include svg/icons/arrow-right.svg %}</a>
-          {% endif %}
-        </div>
-        <ul>
-        {% for post in matching_posts limit:3 %}
-          {% include post.html
-             post_date=post.date
-             post_title=post.title
-             post_excerpt=post.excerpt
-             post_url=post.url
-          %}
-        {% endfor %}
-      </ul>
-      </section>
-    </div>
-  </div>
-  {% endif %}
-</section>
-{% endif %}

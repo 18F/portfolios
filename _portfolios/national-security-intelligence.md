@@ -3,13 +3,9 @@ name: National Security & Intelligence Portfolio
 heading: Partnering with agencies on product development, assisted acquisitions & portfolio management.
 subheading:
 permalink: /national-security-intelligence/
-tag: 'national security and intelligence'
 
-# NOTE: if adding a new partner, make sure that they exist in _data/agencies.yml
-partners:
 resources:
 learn_more:
-show_blog_posts: false
 
 published: true
 listed: true
@@ -98,13 +94,13 @@ Break up large procurements into pieces that can be delivered incrementally to e
   <section class="grid-container">
     <h2>Examples of our work</h2>
     <div class="grid-row grid-gap">
-    {% include card-portfolio-project.html
+    {% include card-project-nolink.html
        project='geoint'
     %}
-    {% include card-portfolio-project.html
+    {% include card-project-nolink.html
        project='dtmo'
     %}
-    {% include card-portfolio-project.html
+    {% include card-project-nolink.html
        project='afmc'
     %}
     </div>

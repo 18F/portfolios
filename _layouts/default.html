@@ -4,8 +4,7 @@
 
   {% include head.html %}
 
-  <body class="{% if page.type == "tag"%}tag-{% endif %}page-{{ page.title | slugify }}
-  {% if page.header_border == true or layout.header_border == true %}header_border{% endif %} {% if page.path contains '_posts' %}single-post{% endif %}">
+  <body>
 
     {% unless layout.title == '18F UI Styleguide' %}
       {% include header.html %}

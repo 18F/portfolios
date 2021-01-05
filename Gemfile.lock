@@ -1,21 +1,3 @@
-GIT
-  remote: https://github.com/adaoraul/rack-jekyll
-  revision: a997bd0c384fa377cda3b9ebeb462f91cd8dfd03
-  ref: a997bd0
-  specs:
-    rack-jekyll (0.5.0)
-      jekyll (>= 1.3)
-      listen (>= 1.3)
-      rack (>= 1.5)
-
-GIT
-  remote: https://github.com/jekyll/jekyll-archives.git
-  revision: 112c508031acf3cf1d9024b005f99b2752133769
-  ref: 112c508
-  specs:
-    jekyll-archives (2.1.0)
-      jekyll (>= 2.4)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -29,29 +11,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    archive-zip (0.12.0)
-      io-like (~> 0.3.0)
-    capybara (3.33.0)
-      addressable
-      mini_mime (>= 0.1.3)
-      nokogiri (~> 1.8)
-      rack (>= 1.6.0)
-      rack-test (>= 0.6.3)
-      regexp_parser (~> 1.5)
-      xpath (~> 3.2)
-    childprocess (3.0.0)
-    chromedriver-helper (2.1.1)
-      archive-zip (~> 0.10)
-      nokogiri (~> 1.8)
-    codeclimate-test-reporter (1.0.9)
-      simplecov (<= 0.13)
-    coderay (1.1.3)
     colorator (1.1.0)
     colored (1.2)
-    colorize (0.8.1)
     concurrent-ruby (1.1.7)
-    diff-lcs (1.4.4)
-    docile (1.1.5)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     em-websocket (0.5.1)
@@ -82,7 +44,6 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    io-like (0.3.1)
     jekyll (3.9.0)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -96,9 +57,6 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.15.0)
-      jekyll (>= 3.7, < 5.0)
-    jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (1.5.2)
@@ -124,7 +82,6 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
-    json (2.3.1)
     kramdown (2.3.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -134,11 +91,9 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    method_source (1.0.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2020.0512)
-    mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.1)
     netrc (0.11.0)
@@ -147,18 +102,10 @@ GEM
     parallel (1.19.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    pry (0.13.1)
-      coderay (~> 1.1)
-      method_source (~> 1.0)
     public_suffix (4.0.5)
-    rack (2.2.3)
-    rack-test (1.1.0)
-      rack (>= 1.0, < 3)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rb-readline (0.5.5)
-    regexp_parser (1.7.1)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
@@ -166,35 +113,13 @@ GEM
       netrc (~> 0.8)
     rexml (3.2.4)
     rouge (3.22.0)
-    rspec (3.9.0)
-      rspec-core (~> 3.9.0)
-      rspec-expectations (~> 3.9.0)
-      rspec-mocks (~> 3.9.0)
-    rspec-core (3.9.2)
-      rspec-support (~> 3.9.3)
-    rspec-expectations (3.9.2)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.9.0)
-    rspec-mocks (3.9.1)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.9.0)
-    rspec-support (3.9.3)
     ruby-oembed (0.13.1)
-    rubyzip (2.3.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    selenium-webdriver (3.142.7)
-      childprocess (>= 0.5, < 4.0)
-      rubyzip (>= 1.2.2)
-    simplecov (0.13.0)
-      docile (~> 1.1.0)
-      json (>= 1.8, < 3)
-      simplecov-html (~> 0.10.0)
-    simplecov-html (0.10.2)
     thor (0.20.3)
     thread_safe (0.3.6)
     typhoeus (0.8.0)
@@ -204,8 +129,6 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
-    xpath (3.2.0)
-      nokogiri (~> 1.8)
     yell (2.2.2)
 
 PLATFORMS
@@ -213,15 +136,8 @@ PLATFORMS
 
 DEPENDENCIES
   accesslint-ci (= 0.2.8)
-  capybara (>= 3.29.0)
-  chromedriver-helper (>= 2.1.1)
-  codeclimate-test-reporter (~> 1.0.0)
-  colorize
   html-proofer (~> 3.6.0)
   jekyll (~> 3.9)
-  jekyll-archives!
-  jekyll-feed
-  jekyll-paginate
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
@@ -232,13 +148,6 @@ DEPENDENCIES
   jemoji (>= 0.11.1)
   kramdown-parser-gfm
   parallel
-  pry
-  rack (>= 2.1.4)
-  rack-jekyll!
-  rb-readline
-  rspec
-  selenium-webdriver (>= 3.1.0)
-  simplecov
 
 RUBY VERSION
    ruby 2.6.3p62
