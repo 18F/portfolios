@@ -9,7 +9,7 @@ This repository houses a microsite about 18F's portfolios. We use the [U.S. Web 
 
 To contribute, you'll just need a GitHub account. After that, check out [CONTRIBUTING.MD](./CONTRIBUTING.MD) for some more details.
 
-For Human Services Portfolio content, check out 🔒[our governance/approval process](https://docs.google.com/document/d/18JpJs6HDY624atN8RcL1vgTCkLOfd2_T7C-2BFEMPQI/edit#heading=h.w7bz3n3oh45o). The is no Official Editor as of yet, but you can hop into either the #portfolio-site or #portfolio-human-srvcs channel on Slack, or tag/DM @stvnrlly.
+For Human Services Portfolio content, check out 🔒 [our governance/approval process](https://docs.google.com/document/d/18JpJs6HDY624atN8RcL1vgTCkLOfd2_T7C-2BFEMPQI/edit#heading=h.w7bz3n3oh45o). The is no Official Editor as of yet, but you can hop into either the #portfolio-site or #portfolio-human-srvcs channel on Slack, or tag/DM @stvnrlly.
 
 ### Adding a portfolio project
 
