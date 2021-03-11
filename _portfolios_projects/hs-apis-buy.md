@@ -3,7 +3,7 @@ agency: 10x
 title: Procurement resources for agencies
 permalink: /projects/eligibility-apis/procurement-resources/
 layout: hs-apis-page
-portfolio: Human Services
+portfolio: Public Benefits
 featured: false
 subtitle: Procurement resources for agencies
 links:

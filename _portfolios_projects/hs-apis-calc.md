@@ -3,7 +3,7 @@ agency: 10x
 title: Reusable SNAP API and calculator
 permalink: /projects/eligibility-apis/reusable-snap-api/
 layout: hs-apis-page
-portfolio: Human Services
+portfolio: Public Benefits
 featured: false
 subtitle: Reusable SNAP API prototype and calculator
 links:

@@ -1,9 +1,11 @@
 ---
-name: Human Services Portfolio
+name: Public Benefits Portfolio
 heading: We partner with agencies to enable human-centered, digitally-assisted public benefits programs.
 subheading:
 #permalink: /portfolios/human-services/
-permalink: /human-services/
+permalink: /public-benefits/
+redirect_from:
+  - /human-services/
 
 # NOTE: if adding a new partner, make sure that they exist in _data/agencies.yml
 partners:

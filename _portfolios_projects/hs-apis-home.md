@@ -3,7 +3,7 @@ agency: 10x
 title: Eligibility APIs Initiative
 permalink: /projects/eligibility-apis/
 layout: hs-apis-page
-portfolio: Human Services
+portfolio: Public Benefits
 featured: false
 subtitle: Background
 excerpt: Prototyping tools to help agencies smoothly update their benefits systems as needs change.

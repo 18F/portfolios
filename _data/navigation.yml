@@ -1,17 +1,17 @@
 navbar:
-- text: Human Services
+- text: Public Benefits
   permalink: /human-services/
 - text: National Security & Intelligence
   permalink: /national-security-intelligence/
 
 drawer:
-  - text: Human Services
+  - text: Public Benefits
     permalink: /human-services/
   - text: National Security & Intelligence
     permalink: /national-security-intelligence/
 
 footer:
-  - text: Human Services
+  - text: Public Benefits
     permalink: /human-services/
   - text: National Security & Intelligence
     permalink: /national-security-intelligence/
