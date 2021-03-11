@@ -1,18 +1,18 @@
 ---
-agency: 412th Operations Group of the Air Force Material Command (AFMC) 
+agency: 412th Operations Group of the Air Force Material Command (AFMC)
 title: Modernizing legacy systems
-subtitle: 
+subtitle:
 permalink: /projects/afmc/
-redirect_from: 
+redirect_from:
 excerpt: The 412th Operations Group of the Air Force Material Command (AFMC) was looking for help to modernize their legacy Center Ops Online (COOL) system, which had been developed over the past 19 years and was ready for a holistic user-based refresh.  
 image: /assets/img/portfolios/project-cards/afcool.jpg
 image_accessibility: Photo of an Air Force airplane at the 412th operations group of the Air Force Material Command (AFMC) site.
 image_icon:
 project_weight: 3
-tag: 
+tag:
 expiration_date:
 github_repo:
-  - 
+  -
 project_url:
 learn_more:
 product_clients:
@@ -21,11 +21,11 @@ portfolio: National Security and Intelligence
 featured: true
 ---
 
-The 412th Operations Group of the Air Force Material Command (AFMC) was looking for help to modernize their legacy Center Ops Online (COOL) system, which had been developed over the past 19 years and was ready for a holistic user-based refresh. AFMC was specifically seeking to upgrade COOL to provide a web-based platform that would ensure current, qualified, available air crew were able to be scheduled for and execute test missions. 
+The 412th Operations Group of the Air Force Material Command (AFMC) was looking for help to modernize their legacy Center Ops Online (COOL) system, which had been developed over the past 19 years and was ready for a holistic user-based refresh. AFMC was specifically seeking to upgrade COOL to provide a web-based platform that would ensure current, qualified, available air crew were able to be scheduled for and execute test missions.
 
 ## What did we do
 
-The AFMC selected to work with 18F on the COOL 2.0 project as a multi-phase engagement consisting of both a Path Analysis (research phase) and an Experiment and Iterate (E&I) phase. During the Path Analysis a series of stakeholder and end user interviews were conducted, workflow mapping, process assessment, and a high level UX audit was performed to identify the main problems in modernizing the COOL system. 
+The AFMC selected to work with 18F on the COOL 2.0 project as a multi-phase engagement consisting of both a Path Analysis (research phase) and an Experiment and Iterate (E&I) phase. During the Path Analysis a series of stakeholder and end user interviews were conducted, workflow mapping, process assessment, and a high level UX audit was performed to identify the main problems in modernizing the COOL system.
 
 ## What were the findings or recommendations
 
