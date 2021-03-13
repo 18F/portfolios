@@ -17,7 +17,7 @@ project_url:
 learn_more:
 product_clients:
 resources:
-portfolio: Human Services
+portfolio: Public Benefits
 featured: true
 ---
 
