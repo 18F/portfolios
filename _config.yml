@@ -5,7 +5,6 @@ description: "As 18F teams continue to work with agencies that share a common mi
 github_repo: https://github.com/18F/portfolios/blob/release
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: pretty
-url: "https://18f.gsa.gov" # the base hostname & protocol for your sites
 localhost: "localhost:4000"
 env: "production"
 logo: /assets/img/logos/18F-Logo-Bright-S.png
