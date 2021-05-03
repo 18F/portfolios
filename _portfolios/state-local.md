@@ -103,7 +103,7 @@ Our team of designers, web developers, and acquisition specialists are federal e
     <h2>Examples of our work</h2>
     <div class="grid-row grid-gap">
     {% include card-project.html
-       project='usda-fns'
+       project='alaska-dhss'
     %}
     {% include card-project.html
        project='vermont-iee'
