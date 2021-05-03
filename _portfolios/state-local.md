@@ -114,7 +114,8 @@ Our team of designers, web developers, and acquisition specialists are federal e
 
 
 
-{% include contact-button-stacked.html message='<b class="white-text">For more information on how we can partner with your state and municipal agencies, check out [our partnership process (PDF)](https://drive.google.com/file/d/1LbZmu9HpUjVOBhQMV8CG3Zn0esVycVL1/view)
+{% include contact-button-stacked.html message='<b class="white-text">Can we help your program? 
+  For more information on how we can partner with your state and municipal agencies, check out [our partnership process (PDF)](https://drive.google.com/file/d/1LbZmu9HpUjVOBhQMV8CG3Zn0esVycVL1/view)
 To chat with a team member, email 18FStateLocal@gsa.gov.</b>' button_text='Contact us' %}
 
 
