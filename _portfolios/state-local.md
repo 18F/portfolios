@@ -58,7 +58,7 @@ Our team of designers, web developers, and acquisition specialists are federal e
 <div class="grid-container padding-bottom-3 portfolio-highlights">
 <div class="grid-row">
 <div class="tablet:grid-col-2" markdown="1">
-![]({{ site.baseurl }}/assets/img/tablet-hand.svg)
+![]({{ site.baseurl }}/assets/img/user-network.svg)
 </div>
 <div class="tablet:grid-col-10" markdown="1">
 ### Deliver value to your end users
@@ -72,7 +72,7 @@ Our team of designers, web developers, and acquisition specialists are federal e
 <div class="grid-container padding-bottom-3 portfolio-highlights">
 <div class="grid-row">
 <div class="tablet:grid-col-2" markdown="1">
-![]({{ site.baseurl }}/assets/img/user-network.svg)
+![]({{ site.baseurl }}/assets/img/tablet-hand.svg)
 </div>
 <div class="tablet:grid-col-10" markdown="1">
 ### Modernize your approach 
