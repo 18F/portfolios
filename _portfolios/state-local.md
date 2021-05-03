@@ -7,12 +7,9 @@ permalink: /state-local/
 
 # NOTE: if adding a new partner, make sure that they exist in _data/agencies.yml
 partners:
-- Administration for Children and Families
+- Wisconsin Department of Workforce Development
 - Alaska Department of Health and Social Services
 - California Child Welfare Digital Services
-- Center for Medicaid and Medicare Services
-- USDA Food and Nutrition Service
-- Department of Labor
 - State of Vermont Agency of Human Services
 # resources:
 # - "[https://github.com/18F/human-services](https://github.com/18F/human-services)"
