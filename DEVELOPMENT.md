@@ -19,7 +19,7 @@ Once you have built the container, you can use it to build the site. If you pass
 The first time you do this, it may be slow/take some time.
 
 ```
-docker run -ti --rm -p 4000:4000 -v ${PWD}:/site portfolios/build:latest -b 
+docker run -ti --rm -v ${PWD}:/site portfolios/build:latest -b 
 ```
 
 ## To serve and test the site
