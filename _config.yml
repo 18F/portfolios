@@ -88,6 +88,9 @@ exclude:
 - tests/schema/tags.yml
 - tmp/
 - vendor
+- Dockerfile
+- entry.bash
+- DEVELOPMENT.md
 
 # jekyll plugins
 plugins:
