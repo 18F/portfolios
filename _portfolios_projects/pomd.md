@@ -13,8 +13,14 @@ links:
     href: /projects/product-ownership/
   - text: Course Site
     href: https://federalist-b09e389b-5963-437f-bfdf-a065b9fa71cb.app.cloud.gov/site/18f/health-tracking-course/
+  - text: Project Health Rubic
+    href: https://federalist-b09e389b-5963-437f-bfdf-a065b9fa71cb.app.cloud.gov/site/18f/health-tracking-course/rubric/
+  - text: Source Repository 
+    href: https://github.com/18F/health-tracking-course
+  - text: Course Design Rationale
+    href: https://federalist-b09e389b-5963-437f-bfdf-a065b9fa71cb.app.cloud.gov/site/18f/health-tracking-course/admin/learningcohorts/
 image: /assets/img/portfolios/human-services/hs-apis/10xeligibility@2x.png
-image_accessibility: FIXME
+image_accessibility: Many processes feed into our learning, including our colleagues and community.
 ---
 
 ## {{ page.project }}
@@ -69,3 +75,5 @@ We carried that level of detail down to the individual lesson: each lesson provi
 <div class="small-caps">Chat with us</div>
 
 A core 18F mission is to help federal and state agencies grow in their own tech capacity. Part of that is learning to own technology as a long-lived product, not a single purchase. We can help you with assisted acquisitions, launch your learning journey, and set you grow your in-house team cohesion and expertise for success in the short- and long-term. 
+
+Questions? Want to learn more? FIXME
