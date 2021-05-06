@@ -95,17 +95,15 @@ Our team of designers, web developers, and acquisition specialists are federal e
 </div>
 </div>
 </div>
-Some projects of course fall outside of these categories, but it’s a good way to think about our work. For 18F to partner with state & local agencies, our work together must involve federal funding and be scoped to agile acquisition consulting. 
+Some projects of course fall outside of these categories, but it’s a good way to think about our work. For 18F to partner with state & local agencies, our work together must involve federal funding and be scoped to agile acquisition consulting.
 
 </section>
 
 <section class="usa-section grid-container" markdown="1">
 ## Our partnerships can support a variety of projects:
 
-<div class="grid-container">
 ### Short term: Technical Advisors
 18F staff can provide short term support (under 80 hours) to assist governments in need of advice on technical strategy
-</div>
 
 ### Medium term: ‘Tiger Teams’
 3-month engagements with a team of 2-3 digital experts (spanning skills like engineering, design, product and data strategy) to support the scoping, budgeting and vetting of a technology vendor team
