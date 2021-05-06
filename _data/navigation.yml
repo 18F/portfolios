@@ -3,15 +3,21 @@ navbar:
   permalink: /public-benefits/
 - text: National Security & Intelligence
   permalink: /national-security-intelligence/
+- text: State & Local
+  permalink: /state-local/
 
 drawer:
   - text: Public Benefits
     permalink: /public-benefits/
   - text: National Security & Intelligence
     permalink: /national-security-intelligence/
+  - text: State & Local
+    permalink: /state-local/
 
 footer:
   - text: Public Benefits
     permalink: /public-benefits/
   - text: National Security & Intelligence
     permalink: /national-security-intelligence/
+  - text: State & Local
+    permalink: /state-local/

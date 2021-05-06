@@ -48,7 +48,7 @@ Our team of designers, web developers, and acquisition specialists are federal e
 </div>
 <div class="tablet:grid-col-10" markdown="1">
 ### Increase the overall success rate of your IT project
-- Decide what technology to build or buy and how to procure them successfully 
+- Decide what technology to build or buy and how to procure them successfully
 - Develop prototype technology components, wireframes, and data used to test what paths to production a vendor team can implement successfully
 - Craft an actionable roadmap for vendor implementation using agile methods
 </div>
@@ -62,7 +62,7 @@ Our team of designers, web developers, and acquisition specialists are federal e
 </div>
 <div class="tablet:grid-col-10" markdown="1">
 ### Deliver value to your end users
-- Ensure the people you serve equitably benefit from the technology you procure 
+- Ensure the people you serve equitably benefit from the technology you procure
 - Evaluate technology vendor proposals: in response to agency solicitation, to ensure that the vendors can meet your needs
 </div>
 </div>
@@ -75,9 +75,9 @@ Our team of designers, web developers, and acquisition specialists are federal e
 ![]({{ site.baseurl }}/assets/img/tablet-hand.svg)
 </div>
 <div class="tablet:grid-col-10" markdown="1">
-### Modernize your approach 
-- Product coaching and training sessions to help employees work successfully with agile software teams that you hire 
-- Write successful solicitations, attract a wider variety of vendors and decrease the time to award 
+### Modernize your approach
+- Product coaching and training sessions to help employees work successfully with agile software teams that you hire
+- Write successful solicitations, attract a wider variety of vendors and decrease the time to award
 </div>
 </div>
 </div>
@@ -88,15 +88,30 @@ Our team of designers, web developers, and acquisition specialists are federal e
 ![]({{ site.baseurl }}/assets/img/users.svg)
 </div>
 <div class="tablet:grid-col-10" markdown="1">
-### Expert technical advice 
+### Expert technical advice
 - Design processes to migrate securely off a legacy system without compromising current functionality
-- Ensure quality control through so that commercial best practices in agile and user centered design are followed 
-- Coach staff on how to manage agile software teams 
+- Ensure quality control through so that commercial best practices in agile and user centered design are followed
+- Coach staff on how to manage agile software teams
 </div>
 </div>
 </div>
 Some projects of course fall outside of these categories, but it’s a good way to think about our work. For 18F to partner with state & local agencies, our work together must involve federal funding and be scoped to agile acquisition consulting. 
 
+</section>
+
+<section class="usa-section grid-container" markdown="1">
+## Our partnerships can support a variety of projects:
+
+<div class="grid-container">
+### Short term: Technical Advisors
+18F staff can provide short term support (under 80 hours) to assist governments in need of advice on technical strategy
+</div>
+
+### Medium term: ‘Tiger Teams’
+3-month engagements with a team of 2-3 digital experts (spanning skills like engineering, design, product and data strategy) to support the scoping, budgeting and vetting of a technology vendor team
+
+### Long term: Digital Consulting
+Longer-term (3-12 month) agile and user-centered engagements, geared toward legacy modernization procurements and transformation in your ability to procure agile software teams.
 </section>
 
 <section class="usa-section background-gray">
@@ -115,8 +130,5 @@ Some projects of course fall outside of these categories, but it’s a good way 
 
 
 
-{% include contact-button-stacked.html message='<b class="white-text">Can we help your program? For more information on how we can partner with your state and municipal agencies, check out [our partnership process (PDF)](https://drive.google.com/file/d/1LbZmu9HpUjVOBhQMV8CG3Zn0esVycVL1/view)
+{% include contact-button-stacked.html message='<b class="white-text">Can we help your program? For more information on how we can partner with your state and municipal agencies, check out <a href="/assets/igca-process.pdf">our partnership process (PDF)</a>.
 To chat with a team member, email 18FStateLocal@gsa.gov.</b>' button_text='Contact us' %}
-
-
-
