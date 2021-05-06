@@ -95,6 +95,7 @@ Our team of designers, web developers, and acquisition specialists are federal e
 </div>
 </div>
 </div>
+Some projects of course fall outside of these categories, but it’s a good way to think about our work. For 18F to partner with state & local agencies, our work together must involve federal funding and be scoped to agile acquisition consulting. 
 
 </section>
 
