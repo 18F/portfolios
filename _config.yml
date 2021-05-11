@@ -79,7 +79,6 @@ exclude:
 - LICENSE.md
 - node_modules
 - package.json
-- pages/our-work.html
 - PULL_REQUEST_TEMPLATE.md
 - README.md
 - spec/
