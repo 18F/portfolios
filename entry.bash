@@ -33,6 +33,8 @@ function print_usage () {
     echo "\t-s\t\tServe the site. Visit at the exposed port."
 }
 
+gem install bundler
+
 # Process the flags
 while getopts ':bs' flag; do
     case "${flag}" in

@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/ruby
-FROM ruby:2.6.7-buster
+FROM ruby:2.7.3-buster
 
 EXPOSE 4000
 

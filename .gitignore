@@ -28,3 +28,5 @@ _team/mbland.md
 tmp
 .bundle
 .vscode
+/vendor/
+/.jekyll-cache/
