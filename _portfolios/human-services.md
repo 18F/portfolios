@@ -49,27 +49,27 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 <div class="grid-container padding-bottom-3 portfolio-highlights">
 <div class="grid-row">
 <div class="tablet:grid-col-2" markdown="1">
+![]({{ site.baseurl }}/assets/img/user-interviews-love--c.svg)
+</div>
+<div class="tablet:grid-col-10" markdown="1">
+### Human-centered experiences for all
+- Design and build empathetic public-facing systems
+- Update legacy systems to help deliver better services
+- Clarify people's needs to focus on a compassionate solution
+</div>
+</div>
+</div>
+
+<div class="grid-container padding-bottom-3 portfolio-highlights">
+<div class="grid-row">
+<div class="tablet:grid-col-2" markdown="1">
 ![]({{ site.baseurl }}/assets/img/trending-up.svg)
 </div>
 <div class="tablet:grid-col-10" markdown="1">
-### Outcomes-driven oversight processes
-- Reduced reporting and approval burden
-- Practical procurement and vendor management
-- Coaching and training to build, buy, and manage technology
-</div>
-</div>
-</div>
-
-<div class="grid-container padding-bottom-3 portfolio-highlights">
-<div class="grid-row">
-<div class="tablet:grid-col-2" markdown="1">
-![]({{ site.baseurl }}/assets/img/tablet-hand.svg)
-</div>
-<div class="tablet:grid-col-10" markdown="1">
-### Human-centered experiences for all people
-- Accessible, multi-channel eligibility applications
-- Secure identity management and document submission
-- Comprehensive treatment and service locators
+### Sustainable change through building in-house digital capacity
+- Demystify building, buying, and managing technology
+- Coach on product ownership and vendor management
+- Design outcomes-driven oversight and governance processes
 </div>
 </div>
 </div>
@@ -78,13 +78,13 @@ Our team of designers, developers, and acquisition specialists are federal emplo
 <div class="grid-container padding-bottom-3 portfolio-highlights">
 <div class="grid-row">
 <div class="tablet:grid-col-2" markdown="1">
-![]({{ site.baseurl }}/assets/img/user-network.svg)
+![]({{ site.baseurl }}/assets/img/puzzle-1--c.svg)
 </div>
 <div class="tablet:grid-col-10" markdown="1">
-### Streamlined agency services
-- Simplified case management processes
-- Rapid & accurate implementation of policy as code
-- Sustainable transition from legacy systems
+### Modern approaches to procurement and compliance
+- De-risk large projects through prototyping and modular contracting
+- Attract higher-quality vendor bids through assisted acquisitions
+- Bring systems into Authority to Operate (ATO) compliance
 </div>
 </div>
 </div>
