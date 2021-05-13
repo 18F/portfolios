@@ -2,7 +2,7 @@
   <div class="grid-container">
     <div class="tablet:grid-col-8">
       <h3 class="padding-bottom-3">{{ include.message | default: "Work with us to plan successful projects, choose better vendors, build custom software, or learn how to work in new ways."}}</h3>
-      <a class="usa-button usa-button--accent-cool" href="https://18f.gsa.gov/contact/">{{ include.button_text | default: "Get in touch" }}</a>
+      <a class="usa-button usa-button--accent-cool" href="{{ include.button_link | default: 'https://18f.gsa.gov/contact/' }}">{{ include.button_text | default: "Get in touch" }}</a>
     </div>
   </div>
 </section>
