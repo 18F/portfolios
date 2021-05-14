@@ -129,5 +129,5 @@ Longer-term (3-12 month) agile and user-centered engagements, geared toward lega
 
 
 
-{% include contact-button-stacked.html message='<b class="white-text">Can we help your program? For more information on how we can partner with your state and municipal agencies, check out <a href="https://github.com/18F/portfolios/blob/add-state-local/assets/igca-process.pdf">our partnership process (PDF)</a>.
+{% include contact-button-stacked.html message='<b class="white-text">Can we help your program? For more information on how we can partner with your state and municipal agencies, check out <a href="/assets/igca-process.pdf">our partnership process (PDF)</a>.
 To chat with a team member, email 18FStateLocal@gsa.gov.</b>' button_text='Contact us' %}
