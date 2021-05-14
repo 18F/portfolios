@@ -104,10 +104,10 @@ Some projects of course fall outside of these categories, but it’s a good way 
 ## Our partnerships can support a variety of projects:
 
 ### Short term: Technical Advisors
-18F staff can provide short term support (under 80 hours) to assist governments in need of advice on technical strategy
+18F staff can provide short term support (under 80 hours) to assist governments in need of advice on technical strategy.
 
 ### Medium term: ‘Tiger Teams’
-3-month engagements with a team of 2-3 digital experts (spanning skills like engineering, design, product and data strategy) to support the scoping, budgeting and vetting of a technology vendor team
+3-month engagements with a team of 2-3 digital experts (spanning skills like engineering, design, product and data strategy) to support the scoping, budgeting and vetting of a technology vendor team.
 
 ### Long term: Digital Consulting
 Longer-term (3-12 month) agile and user-centered engagements, geared toward legacy modernization procurements and transformation in your ability to procure agile software teams.
