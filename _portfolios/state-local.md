@@ -7,6 +7,7 @@ permalink: /state-local/
 
 # NOTE: if adding a new partner, make sure that they exist in _data/agencies.yml
 partners:
+
 - Wisconsin Department of Workforce Development
 - Alaska Department of Health and Social Services
 - California Child Welfare Digital Services
