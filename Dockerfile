@@ -1,6 +1,11 @@
-# https://hub.docker.com/_/ruby
-FROM ruby:2.6.7-buster
+FROM ruby:2.7.3
 
-EXPOSE 4000
+ENV LC_ALL=C.UTF-8
+WORKDIR /app
 
-ENTRYPOINT [ "/site/entry.bash" ]
+COPY Gemfile* ./
+RUN gem install bundler
+RUN bundle install
+
+CMD bundle exec \
+  jekyll serve --host 0.0.0.0 --incremental --livereload
