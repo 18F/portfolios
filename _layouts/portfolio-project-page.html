@@ -11,21 +11,20 @@ layout: default
 %}
 
 <section class="page-tag-results">
-
   <section class="background-dark">
-    <div class="grid-container usa-flex">
-      <div class="grid-container {% if page.image %}usa-width-one-half{% else %}usa-width-one-whole{% endif %} hero__callout-full hero__callout-no_button">
-        {% if page.agency %}
-          <h1 class="h3">
-          <span class="hero__callout-alt_color">{{ page.agency }}</span>
-          </h1>
-        {% endif %}
-        <h1 class="hero__callout-title-secondary">
-          {{ page.title }}
+    <div class="grid-container padding-x-0 usa-flex">
+      <div class="grid-container tablet:grid-col-6 hero-callout-full hero-callout-no_button">
+        <h1 class="portfolio-callout">
+          {% if page.agency %}
+            <span class="hero-callout-alt_color">{{ page.agency }}</span>
+          {% endif %} 
         </h1>
+        <h2 class="hero-callout-title-secondary">
+          {{ page.title }}
+        </h2>
       </div>
       {% if page.image %}
-        <div class="usa-width-one-half hero"
+        <div class="tablet:grid-col-6 usa-hero hero" 
           style="background-image: url({{ site.baseurl }}{{ page.image }});"
           role="img"
           title="{{ page.image_accessibility }}">
@@ -131,7 +130,9 @@ layout: default
     <div class="grid-container usa-width-two-thirds">
       <section class="usa-section page-tag-results-content">
         <div class="small-caps small-caps-no-margin">Background</div>
-        <h3>{{ page.subtitle }}</h3>
+        {% if page.subtitle %}
+          <h2>{{ page.subtitle }}</h2>
+        {% endif %}
         {{ content }}
       </section>
     </div>
