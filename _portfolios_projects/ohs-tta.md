@@ -1,6 +1,7 @@
 ---
 class: project-detail
 portfolio: Public Benefits
+portfolio-permalink: /public-benefits/
 short_name: Office of Head Start TTA Data
 project_name: Training and Technical Assistance (TTA) Data Platform
 agency: Administration for Children and Families

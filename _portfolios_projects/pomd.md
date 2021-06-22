@@ -5,6 +5,7 @@ permalink: /projects/product-ownership/
 layout: apis
 project: A First Course on Product Ownership
 portfolio: Public Benefits
+portfolio-permalink: /public-benefits/
 featured: false
 subtitle: Background
 excerpt: A reusable, scalable course for building team cohesion and product ownership skills.
