@@ -4,6 +4,7 @@ title: Eligibility APIs Initiative
 permalink: /projects/eligibility-apis/
 layout: hs-apis-page
 portfolio: Public Benefits
+portfolio-permalink: /public-benefits/
 featured: false
 subtitle: Background
 excerpt: Prototyping tools to help agencies smoothly update their benefits systems as needs change.

@@ -18,6 +18,7 @@ learn_more:
 product_clients:
 resources:
 portfolio: Public Benefits
+portfolio-permalink: /public-benefits/
 featured: true
 ---
 

@@ -4,6 +4,7 @@ title: Procurement resources for agencies
 permalink: /projects/eligibility-apis/procurement-resources/
 layout: hs-apis-page
 portfolio: Public Benefits
+portfolio-permalink: /public-benefits/
 featured: false
 subtitle: Procurement resources for agencies
 links:

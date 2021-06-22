@@ -4,6 +4,7 @@ title: Reusable SNAP API and calculator
 permalink: /projects/eligibility-apis/reusable-snap-api/
 layout: hs-apis-page
 portfolio: Public Benefits
+portfolio-permalink: /public-benefits/
 featured: false
 subtitle: Reusable SNAP API prototype and calculator
 links:

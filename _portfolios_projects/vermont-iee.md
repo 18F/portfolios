@@ -17,7 +17,8 @@ project_url:
 learn_more:
 product_clients:
 resources:
-portfolio: Public Benefits
+portfolio: State & Local
+portfolio-permalink: /state-local/
 featured: true
 ---
 

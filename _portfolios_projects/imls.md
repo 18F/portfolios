@@ -5,6 +5,7 @@ permalink: /projects/survey-modernization/
 layout: apis
 project: API-driven Survey Modernization
 portfolio: Public Benefits
+portfolio-permalink: /public-benefits/
 featured: false
 subtitle: Background
 excerpt: Merging real-time data with annual process for survey modernization through modularization and APIs.

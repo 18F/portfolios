@@ -18,6 +18,7 @@ learn_more:
 product_clients:
 resources:
 portfolio: National Security and Intelligence
+portfolio-permalink: /national-security-intelligence/
 featured: true
 ---
 
