@@ -2,7 +2,7 @@
 agency: 10x
 title: API-driven, IoT-backed Survey Modernization
 permalink: /projects/survey-modernization/
-layout: apis
+layout: portfolio-project-page
 project: API-driven Survey Modernization
 portfolio: Public Benefits
 portfolio-permalink: /public-benefits/
