@@ -1,7 +1,6 @@
 ---
 agency: Alaska Department of Health and Social Services
 title: Modernizing access to healthcare
-subtitle: Modernizing public benefit eligibility systems
 layout: portfolio-project-page
 permalink: /projects/alaska-dhss/
 portfolio: State & Local
