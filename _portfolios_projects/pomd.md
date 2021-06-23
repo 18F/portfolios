@@ -2,7 +2,7 @@
 agency: 10x
 title: Product Owner, M.D.
 permalink: /projects/product-ownership/
-layout: apis
+layout: portfolio-project-page
 project: A First Course on Product Ownership
 portfolio: Public Benefits
 portfolio-permalink: /public-benefits/
