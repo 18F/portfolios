@@ -70,7 +70,7 @@ layout: default
         </li>
         {% endif %}
 
-        {% if page.github_repo.length > 0 %}
+        {% if page.github_repo and page.github_repo.length > 0 %}
         <li class="section-info-list-item">
           <div class="section-info-header">See the code on GitHub</div>
             <ul class="{% unless page.github_repo.size > 1 %}usa-unstyled-list{% endunless %}">
