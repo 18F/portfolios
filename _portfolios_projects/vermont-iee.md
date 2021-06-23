@@ -12,7 +12,6 @@ project_weight: 3
 tag: 
 expiration_date:
 github_repo:
-  - 
 project_url:
 learn_more:
 product_clients:
@@ -34,7 +33,7 @@ Their eligibility systems have performed well in the past, but the now outdated 
 </div>
 
 <div class="small-caps">Approach</div>
-### Finding the right vendors through modular contracting and an open process
+## Finding the right vendors through modular contracting and an open process
 
 Building on the work we’re doing with other states, 18F is helping introduce modular contracting, agile software development, DevOps, and user-centered design to the State of Alaska’s eligibility system modernization project. 
 
