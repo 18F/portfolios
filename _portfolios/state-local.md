@@ -120,7 +120,7 @@ Longer-term (3-12 month) agile and user-centered engagements, geared toward lega
     {% include card-project.html
        project='alaska-dhss'
     %}
-    {% include card-project.html
+    {% include card-project-nolink.html
        project='vermont-iee'
     %}
     </div>
