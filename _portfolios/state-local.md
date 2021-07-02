@@ -1,6 +1,6 @@
 ---
 name: State & Local Domain
-heading: We work with state and local governments to help with prototyping and procurement for federally-funded digital public services, using agile acquisition consulting services.
+heading: We work with state and local governments to help with prototyping and procurement for federally funded digital public services, using agile acquisition consulting services.
 subheading:
 #permalink: /portfolios/state-local/
 permalink: /state-local/
@@ -28,7 +28,7 @@ project_url:
 ---
 <section class="grid-container usa-section" markdown="1">
 
-## We believe State and Local technology can be reliable, accessible, integrated, user-friendly, and effective.
+## We believe state and local technology can be reliable, accessible, integrated, user-friendly, and effective.
 
 Our team of designers, web developers, and acquisition specialists are federal employees working with federal, state, and local agencies. Agencies we’ve worked with or are currently working with:
 
@@ -40,7 +40,7 @@ Our team of designers, web developers, and acquisition specialists are federal e
 
 <section class="grid-container usa-section padding-top-5" markdown="1">
 
-## We partner with State and Local Governments to help with the following:
+## We partner with state and local governments to help with the following:
 
 <div class="grid-container padding-bottom-3 portfolio-highlights">
 <div class="grid-row">
@@ -107,7 +107,7 @@ Some projects of course fall outside of these categories, but it’s a good way 
 18F staff can provide short term support (under 80 hours) to assist governments in need of advice on technical strategy.
 
 ### Medium term: ‘Tiger Teams’
-3-month engagements with a team of 2-3 digital experts (spanning skills like engineering, design, product and data strategy) to support the scoping, budgeting and vetting of a technology vendor team.
+Three-month engagements with a team of 2-3 digital experts (spanning skills like engineering, design, product and data strategy) to support the scoping, budgeting and vetting of a technology vendor team.
 
 ### Long term: Digital Consulting
 Longer-term (3-12 month) agile and user-centered engagements, geared toward legacy modernization procurements and transformation in your ability to procure agile software teams.
