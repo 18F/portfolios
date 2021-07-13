@@ -7,6 +7,11 @@ a.usa-button.usa-button-secondary {
   box-shadow: unset;
 }
 
+.usa-dark-background .usa-button--accent-cool:hover, .usa-button--accent-cool.usa-button--hover {
+  color: #1b1b1b;
+  background-color: #28a0cb;
+}
+
 img.home-cta-icon {
   width: 7rem;
   margin: 0 3rem 1rem 0;
