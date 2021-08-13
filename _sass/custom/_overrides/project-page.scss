@@ -7,3 +7,18 @@
     line-height: unset;
     margin-top: -0.6rem;
 }
+
+.project-meta > ul:first-of-type {
+    border-top: 1rem solid #046b99
+}
+
+.project-meta > ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.project-meta > ul > li {
+    margin: 1.2rem 0 2rem 0;
+}
