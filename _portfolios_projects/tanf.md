@@ -23,22 +23,20 @@ github_repo:
 
 TANF’s data reporting system is over 20 years old, and using it has been frustrating for states, tribes, and territories as well as federal staff. They spend a considerable amount of time getting the data ready for submission: cleaning and formatting data, pulling data from multiple sources, and internally collaborating on submission. 
 
-That takes time and energy that could otherwise go to deeper analysis and investigation of the data to better administer the program and serve low-income families receiving TANF benefits.
-
-It’s also harder to take advantage of security best practices with a legacy system. 
+This takes time and energy that could otherwise go to deeper analysis and investigation of the data to better administer the program and serve low-income families receiving TANF benefits. Since it's a legacy system, it's also harder to take advantage of security best practices. 
 
 <div class="testimonial-blockquote">
   Just thinking about this latest caseload report and how much time we spend following up with states… Every quarter we're supposed to publish caseload data, and it involves dozens of emails back and forth.
     <span>- Lauren Frohlich, TANF Data Portal Product Owner</span>
 </div>
 
-## Approach
+## Our approach
 
-* Coached the OFA team on product development and technical oversight skills to manage a new IT system
-* Conducted user research with TANF grantees to identify pain points of the old data reporting system
-* Hired a vendor to build the new system focusing on open source, DevOps practices, security, and accessibility.
-* Hired a Tech Lead in the OFA office to oversee the project and ensure the agency is still delivering on their mission. 
-* Collaborated with OFA and the vendor team to achieve a 3-year moderate ATO for the new system.
+* We coached the OFA team on product development and technical oversight skills to manage a new IT system
+* We conducted user research with TANF grantees to identify pain points of the old data reporting system
+* We hired a vendor to build the new system focusing on open source, DevOps practices, security, and accessibility.
+* We hired a Tech Lead in the OFA office to oversee the project and ensure the agency is still delivering on their mission. 
+* We collaborated with OFA and the vendor team to achieve a 3-year moderate ATO for the new system.
 
 <div class="testimonial-blockquote">
   Visibility! We have visibility into our system now. We understand how it works and what levers we need to be paying attention to.
